@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/*reset*/
+body{font:normal 12px/150% "맑은 고딕","Malgun Gothic",sans-serif;}
+
+/*ex1*/
+/* 중요하다!-webkit-크롬,사파리/오페라 / -ms- ie /-o- 오페라 / -moz- 파이어폭스 */
+
+#ex1{border:1px solid #cccccc; width:200px; 
+height:150px;margin-bottom:100px; overflow:auto;}
+#ex1::-webkit-scrollbar{width:4px;}/*두께*/
+#ex1::-webkit-scrollbar{background-color:red;}/*스크롤바색상*/
+#ex1::-webkit-scrollbar-thumb{background-color:blue;}
+/*드래그 가능한 스크롤바 색상*/
+#ex1::-webkit-scrollbar-thumb:hover{background-color:yellow;}
+/*드래그바에 갔다뒀을때 색상*/
+#ex1::-webkit-scrollbar-thumb:active{background-color:black;}
+/*드래그 가능한 스코롤바 색상을누르고 있을때 색상*/
+
+
+/*ex2*/
+#ex2{border:1px solid #eaeaea; width:200px; 
+height:150px;margin-bottom:100px; overflow:auto;}
+#ex2::-webkit-scrollbar{width:15px;}/*두께*/
+#ex2::-webkit-scrollbar-track{box-shadow:inset 0 0 5px grey; border-radius:10px;}
+/*스크롤바 색상*/
+#ex2::-webkit-scrollbar-thumb{background-color:orange; border-radius:10px;}
+/*드래그가능한 스코롤바 색상*/
+
+/*ex3*/
+#ex3{border:1px solid #999999; width:200px; height:100px; background-color:#eaeaea; overflow-y:scroll; -ms- overflow-style:none;}
+#ex3::-webkit-scrollbar{display:none;}

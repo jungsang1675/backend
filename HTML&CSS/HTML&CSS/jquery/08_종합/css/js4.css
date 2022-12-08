@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/* reset */
+div,ul,li,img,p,label,button,a{margin: 0; padding: 0; font: normal 12px/1.5em "맑은 고딕","MalgunGothic",sans-serif;}
+a{text-decoration: none;}
+ul,li{list-style: none;}
+
+/* top */
+#top{width: 1024px; height: 50px;  background-color: yellow;position: relative; margin: 0 auto;}
+#top >ul {width: 240px; height: 50px; background-color: pink; float: right;}
+#top >ul > li{float: left; width: 80px; height: 50px; text-align: center; line-height: 70px; cursor: pointer;}
+
+#top >ul > li.search div{position: absolute; left: 50%; top: 50px; transform:translate(-50%,0); width: 900px; height: 50px; 
+    background-color: rgba(0,0,0,0.8);}
+#top > ul >li.search div p{width: 700px; height: 50px; border:1px solid red; margin:0 auto;}
+#search_t, #search, #search_b{float: left;}
+#search_t{width: 100px; height: 50px; color: #ffffff;} /* 통합검색 */
+#search{width: 500px; height: 40px; margin-top: 2px; text-align: center;}
+#search_b{width: 90px; height: 45px;margin-top: 2px; background-color: #99cc33;cursor: pointer;}/* 검색버튼 */
+
+#top > ul >li.language > ul{position: absolute; right: 0; top: 43px; background: url(../images/btn_language_bg.png) no-repeat 0 0; width: 100px; height: 60px; padding-top: 20px; z-index: 20;}
+#top > ul >li.language > ul > li{width: 100px; height: 20px;}
+#top > ul >li.language > ul > li a{border: 1px solid #858585;width: 100px; height: 20px; background-color: #ffffff; color: #333333; display:block; box-sizing: border-box; line-height: 20px; }
+#top > ul >li.language > ul > li a:hover{color: #999999; background-color: #333333;}
+/* top img */
+#top_img{clear: both; width: 1024px; height: 400px; margin: 0 auto; line-height: 50px; display: block;}/* 통합검색 */
+
+/* wrap1 */
+#wrap11{margin: 20px; height: 100px; }
+#wrap11 span{width: 50px; height: 50px; border: 1px solid gray; display: inline-block; margin: 5px; cursor: pointer;}

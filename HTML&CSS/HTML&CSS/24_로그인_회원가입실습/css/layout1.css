@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+
+
+/*reset*/
+div,h3,p,h4,li,ul,input,label{margin:0; padding:0;}
+li{list-style:none;}
+
+body{width:1500px; height:1000px;border:1px solid red;}
+
+
+/*warp*/
+#wrap{border:1px solid black;width:350px; height:1000px;padding:30px;margin-left:80px;}
+h3{width:200px;display:block;border:1px solid red;margin-left:30px;margin-bottom:25px;}
+#wrap>p:nth-of-type(1)>input:nth-of-type(1){background:gray;color:red;outline:none;width:250px;height:30px;margin-bottom:5px;text-indent:10px;}
+#wrap>p:nth-of-type(2)>input:nth-of-type(1){background:gray;color:red;outline:none;width:250px;height:30px;margin-bottom:15px;}
+#wrap>p:nth-of-type(3)>input:nth-of-type(1){background:red;width:255px;height:40px;color:white;border-radius:6px;}
+.login_chk{width:240px;height:40px;border-bottom:1px solid gray;font-size:10px;margin-top:16px;line-height:1.5em;text-align:center;padding-left:5px;}
+.login_chk >label{color:red;}
+
+
+/*sns로그인*/
+h4{width:100px;height:30px; border:1px solid red;float:left;margin-left:80px;margin-top:20px;}
+.sns{clear:both;width:250px;height:60px;;border:1px solid blue;margin-left:10px;}
+.sns>li{width:60px;;height:60px;float:left;}
+
+/*infor*/
+.infor{font-size:10px;text-align:center;width:230px;margin-left:5px;}
+.btn>button{background:black;color:white;width:250px; height:50px;border-radius:5px;margin-top:13px;}

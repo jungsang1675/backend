@@ -1,0 +1,61 @@
+<template>
+  <div>
+    <hr> 
+    <p><button id="ex1">클릭</button> : <span> 여기에 출력</span></p>
+    <p><button id="ex2">클릭</button></p>
+    <div class="test">테스트</div>
+    <hr>
+    <div id="touchSlider11">
+	<ul>
+		<li>content 1</li>
+		<li>content 2</li>
+        <li>content 3</li>
+		<li>content 4</li>
+	</ul>
+</div>
+</div>
+</template>
+
+<script>
+import $ from 'jquery'
+import touchSlider from 'jquery.touchslider' // eslint-disable-line no-unused-vars
+export default {
+    mounted() { //인스턴스에 부탁되고 호출되는상태~ 제이쿼리넣을려면 mounted 영억에 넣어야한다
+        $('#ex1').click(function(){
+            alert("안녕하세요")
+            $(this).next('span').text('인사')
+        })
+        $('#ex2').click(function(){
+            $('.test').css({ color : 'red', background : 'yellow', width : '100px', height : '100px'})
+        }) 
+        //https://github.com/dohoons/jquery.touchSlider
+        $('#touchSlider11').touchSlider({
+	autoplay: {
+		enable: true,
+		pauseHover: true,
+		addHoverTarget: '',
+		interval: 3500
+}
+ })
+   }
+    }
+</script>
+
+<style>
+.ts-controls { height: 36px; position: relative; overflow: hidden; }
+.ts-prev { display:none;}
+.ts-next { display:none;}
+
+.ts-paging { width:100%; text-align:center;}
+.ts-paging-btn { display:inline-block; width:15px; height:15px;padding-top:10px; margin-left:7px;border: 1px solid #333333; border-radius:50px; background:#3399CC; overflow: hidden; font-size: 0;;}
+.ts-paging-btn:first-child { margin-left: 0; }
+.ts-paging-active { background:#ff0000; }
+
+#touchSlider11{width: 95%; height: 280px; border: 1px solid red; margin: 0 auto; position: relative; overflow: hidden;}
+#touchSlider11 ul{position: absolute; top: 0; left: 0; overflow: hidden;}
+#touchSlider11 ul li{width: 100%; height: 250px; color: #333333; list-style: none;}
+#touchSlider11 ul li:nth-child(1){background-color: yellow;}
+#touchSlider11 ul li:nth-child(2){background-color: pink;}
+#touchSlider11 ul li:nth-child(3){background-color: orange;}
+#touchSlider11 ul li:nth-child(4){background-color: palegreen;}
+</style>

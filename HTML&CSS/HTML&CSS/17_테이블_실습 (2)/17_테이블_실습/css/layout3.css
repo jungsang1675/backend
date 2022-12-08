@@ -1,0 +1,74 @@
+
+@charset "utf-8";
+
+
+table,caption,span,tr,th,td,ul,li{margin:0;padding:0;font:normal 20px 1.5em "고딕",Gothic,sans-serif; color:#666666;}
+
+/*----------------------------------------*/
+
+
+#wrap caption{
+    font-size:20px;
+    text-align:left;
+    font-weight:bold;margin-bottom:20px;
+}
+#wrap caption span{
+    font-size:15px;
+    padding-left:280px;
+    padding-top:5px;}
+/*#wrap{text-align:left;}*/
+#wrap {border:1px solid #686868;
+    width:440px;
+    height:650px;
+    border-collapse:collapse;
+}
+#wrap2 .tit_money{text-align:right;}
+#wrap2 th:nth-of-type(1){padding-left:0px;}
+#wrap tr:nth-child(1){
+    background:#eaeaea;
+    border-top:3px solid #686868;
+    border-bottom:2px solid #686868;
+}
+#wrap th,#wrap td{
+    border:1px solid #dfdfdf;
+}
+#wrap th{
+    padding-left:20px;;
+}
+#wrap td
+{
+    padding-right:10px;
+    text-align:right;
+}
+
+}
+#wrap tr:nth-child(1)
+{
+    background:#f5efd8;
+}
+
+#wrap tr:nth-child(2)
+{
+    background:#f5efd8;
+}
+#wrap tr:nth-child(3)
+{
+    background:#f5efd8;
+}
+#wrap tr:nth-child(8){
+    background:#f5efd8;
+}
+#wrap tr:nth-child(14){
+    background:#f5efd8;
+}
+#wrap tr:nth-child(13){
+    background:#f5efd8;
+}
+#wrap .power{padding-left{10px;}}
+#wrap li
+{   
+    list-style-type:square;
+    margin-left:15px;
+    font-size:13px;
+    line-height:1.3em;
+}

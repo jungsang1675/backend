@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="css/layout1.css">
+</head>
+<body>
+    <div id="join_wrap">
+        <form action="join.jsp" method="post" id="join">
+            <fieldset>
+                <legend> ◈ 가입정보</legend>
+                <ul>
+                    <li><label for="uid"><strong class="point">*</strong> 아이디</label><input type="text" id="uid" required autofocus autocomplete="off" ></li>
+                    <li><label for="pwd1"><strong class="point">*</strong> 비밀번호</label><input type="password" id="pwd1" required autofocus autocomplete="off"></li>
+                    <li><label for="pwd1"><strong class="point">*</strong> 비밀번호 확인</label><input type="password" id="pwd2"  required autofocus autocomplete="off"></li>
+                    <li><label for="level">회원등급</label><input type="text" id="level" value="준회원" readonly></li>
+                </ul>
+            </fieldset><!--가입정보-->
+            <fieldset>
+                <legend> ◈ 개인정보 </legend>
+                 <ul>
+<li><label for="uname">이름</label><input type="text" id="uname"  placeholder="공백없이 입력" maxlength="10"></li>
+<li><label for="mail">메일주소</label><input type="email" id="mail"placeholder="아이디@계정"></li>
+<li><label for="utel">연락처</label><input type="tei" id="utel"  placeholder="공백없이 입력"></li>
+                </ul>
+            </fieldset><!--개인정보-->
+            <fieldset>
+                <legend>  ◈코딩숙련도(1:상,2:중,3:하)</legend>
+                 <ul>
+                    <li><label for="skill">숙련도</label><input type="range" id="skill" min="1" max="3" value="1" step="1"></li>
+                 </ul>
+            </fieldset><!--코딩숙련도-->
+            <p class="btn_wrap">
+                <button type="submit">가입하기</button>
+                <button type="reset">다시작성</button>
+            </p> <!--btn_wrap-->
+        </form>
+        
+    </div><!--    join_wrap전체-->
+</body>
+</html>

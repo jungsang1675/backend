@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+
+#table1{border:1px solid black; 
+    height:100px; 
+    width:1000px;
+    border-collapse:collapse;
+    text-align:center;}
+#table1 th,#table1 td{border:1px solid black;
+}
+#play{border-bottom:7px double black;
+margin-Left:350px;
+margin-bottom: 30px; width:300px;
+font-size:20px;}
+/*이게 안되는거지 ㅅㅂ..
+.tit1:{height:40px;}
+.tit2:{text-align:left;}
+그리고 저 명세목표 배점사이에 저거뭐냐 하 */

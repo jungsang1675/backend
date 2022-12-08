@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/*폰트*/
+@font-face{
+		font-family:nanum;
+		src:url('../font/NanumGothic.eot');
+		src:url('../font/NanumGothic.eot?#iefix')format('embedded-opentype'),
+				url('../font/NanumGothic.ttf')format('truetype'),
+				url('../font/NanumGothic.woff')format('woff');
+}
+
+/*reset*/
+body,div,h1,ul,ol,li,span,p,img,h2{margin: 0;padding: 0;}
+li,ul,ol{list-style: none;}
+body{font:normal 12px/1.5em nanum,sans-serif;}
+
+
+/*warp*/
+#wrap{width:2000px;margin:0 auto;height:1670px;}
+
+/*wrap_top*/
+#wrap_top{width:2000px;height:80px;background:white;float: left;margin:0 auto;}
+#wrap_main{margin: 0 auto;width: 2000px;height: 80px;}
+#wrap_top h1{float: left;margin-top: 25px;margin-left: 330px;}
+#wrap_top li{float: left;margin-top: 20px;width: 137px;font-weight: bold;font-size: 18px;height: 30px;text-align: center;line-height:35px;}
+#wrap_top li:first-child{margin-left:40px;}
+#wrap_top li:last-child{margin-right:60px;}
+
+#wrap_top span{float: left;margin-top:25px;line-height: 25px;font-size:15px}
+#wrap_top span:last-child{background: url(../images/side_line.png) no-repeat left center;margin-left: 10px;text-indent:10px;}
+
+/*warp_center*/
+#wrap_center{width:2000px;height:710px;position:relative}
+#wrap_c{width:2000px;height:710px; color:white;}
+.backimg1{position: absolute;width: 60px;height: 60px;top:350px;left:100px;border-radius:50px;background: url(../images/bg_direction_nav.png) no-repeat;}
+.backimg2{position: absolute; width: 60px;height: 60px;top:350px;right: 100px;border-radius: 50px; background: url(../images/bg_direction_nav.png) no-repeat right ;}
+#wrap_c p{width:13px;height:13px;text-align: center;line-height: 18px;border-radius: 50px;float:left;position: absolute;bottom: 30px;font-size: 0}
+#wrap_c p:nth-of-type(1){left:930px;background: gray;}
+#wrap_c p:nth-of-type(2){left:960px;background: black;}
+#wrap_c p:nth-of-type(3){left:990px;background: gray;}
+
+
+/*wrap_foot*/
+#wrap_foot{clear:both;width: 2000px; height:730px;background: #ebebeb;padding-top: 65px;}
+#wrap_f{width:1200px;height: 600px;margin: 0 auto;}
+#wrap_f_1{float: left; width: 1200px;height:300px;}
+/*wrap_f_1*/
+#wrap_f_1 div{width:420px; height: 300px;}
+#wrap_f_1 h2{height:65px;box-sizing: border-box;padding-top: 20px;font-size:20px;}
+.f_2{border-bottom: 1px solid #ebebeb;text-indent: 20px;}
+
+#wrap_f_1 li{line-height: 40px;font-size: 13px;text-indent: 20px;}
+#wrap_f_1 div:nth-of-type(1){float: left;background: white;margin-right: 20px}
+#wrap_f_1 div span{float: right;margin-right: 30px;}
+#wrap_f_1 div:nth-of-type(2){float: left;background: white;width: 450px;margin-right: 20px;}
+
+#wrap_f_1 div:nth-of-type(3){border-bottom:none; float:right;background-color:#87a8c7; color: white;width: 280px;font-size: 13px}
+#wrap_f_1 div:nth-of-type(3) h2{text-indent:20px;}
+#wrap_f_1 div:nth-of-type(3) p{margin-left:20px;line-height: 20px;}
+.f_3{background:url(../images/box_line.png) no-repeat 20px bottom;margin-bottom: 20px;}
+#wrap_f_1 div:nth-of-type(3) img{float: right;margin-top:50px;margin-right: 30px;}
+#wrap_f_2{float:right; width: 1200px;height:300px;}
+#wrap_f_2 div{float: left;width: 280px;height: 300px;color: white;margin-right: 25px;margin-top: 20px;}
+#wrap_f_2 div h2{height: 65px;box-sizing: border-box;padding-top: 20px;font-size:20px;text-indent: 20px;background :url(../images/box_line.png) no-repeat 20px bottom;}
+#wrap_f_2 div p{margin-top: 25px; padding-left: 20px; font-size: 13px;line-height: 20px;}
+#wrap_f_2 div img{float: right;margin-top:50px;margin-right:20px;}
+/*wrap_f_2*/
+#wrap_f_2 div:nth-child(1){background: #2d5eaa}
+#wrap_f_2 div:nth-child(even){background:#1f82dd}
+#wrap_f_2 div:nth-child(3){background:#87a8c7}
+#wrap_f_2 div:nth-child(4){float: right;margin-right: 0;}
+
+
+/*wrap_end*/
+#wrap_end{clear: both;width: 2000px; height:280px; background: #666666}
+#wrap_e{width: 1200px; height: 280px; margin: 0 auto; color: white;}
+.wrap_down{padding-top: 50px;font-size: 13px;line-height: 20px;}
+.wrap_p{margin-top:30px;font-size: 13px;}
+#wrap_nd{float: left;width: 1200px;}
+#wrap_nd div{margin-top: 50px;}
+#wrap_nd img{float: left;}
+#wrap_nd img:last-child{float: right;}
+#wrap_nd p{float: left;font-size: 13px;margin-right:20px;}
+
+
+
+

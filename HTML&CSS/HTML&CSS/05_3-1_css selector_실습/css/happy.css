@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+h3{background-color:#fe0034;
+color:white; 
+padding:10px;
+border:solid 1px #000000;}
+
+#ex1 span.ex2_1{border-bottom:dotted;color:red;}
+#ex1 span.ex2_2{border-bottom:dotted;color:red;}
+#ex1 span.ex2_3{border-bottom:dotted;color:red;}
+#ex1 span.ex2_4{border-bottom:dotted;color:red;}
+#ex1 span.ex2_5{border-bottom:dotted;color:red;}
+#ex1 span.ex2_6{border-bottom:dotted;color:red;}
+#ex1 span.ex2_7{border-bottom:dotted;color:red;}
+#ex1 span.ex2_8{border-bottom:dotted;color:red;}
+#ex1 span.ex2_9{border-bottom:dotted;color:red;}
+#ex1 span.ex2_10{line-height:200%;}
+.list {height:30px;}

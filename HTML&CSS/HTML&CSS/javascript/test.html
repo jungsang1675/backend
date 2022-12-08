@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        $(document).ready(function(){
+            var i = setInterval(function(){ var now1 = new Date();
+            var hour1 = now1.getHours();
+            var minute1 = now1.getMinutes(); 
+            var second1 = now1.getSeconds(); 
+            $("#ex1 span:eq(0)").text(hour1+"h "); 
+            $("#ex1 span:eq(1)").text(minute1+"m ");
+             $("#ex1 span:eq(2)").text(second1+"s"); },1000);
+        });
+    </script>
+    <style>
+        #ex1{height:100px; font-size: 60px;text-align: center;}
+        #ex2{height:100px; font-size: 60px;text-align: center;}
+        </style>
+</head>
+<body>
+    <body>
+        <div id="ex1">
+        <p>
+        <span>00</span> : <span>00</span> : <span>00</span>
+        </p>
+        </div><!--ex1-->
+        <hr>
+        <div id="ex2">
+        <p>
+        <span>00</span> : <span>00</span> : <span>00</span> : <span>00</span>
+        </p>
+        </div><!--ex2-->
+</body>
+</html>

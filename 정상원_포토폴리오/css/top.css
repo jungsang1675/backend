@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/* renewal 포토폴리오 알람창 */
+#renewal{width: 1910px; height: 50px; background-color: #666666; color: black;text-align: center; line-height: 50px; margin: 0 auto;position: fixed;z-index: 1;}
+#renewal span{cursor: pointer;color: #ffffff;}
+
+
+
+/* box 페이지 */
+.box{width:100%; height:100%;min-width: 1910px;}
+.box2{background:black;min-width:1910px;}
+.box3{background:black;min-width:1910px;}
+.box4{min-width: 1910px;background: white;}
+.box5{background:#eaeaea;min-width:1910px;}
+.mma_v{width: 1910px;margin: 0 auto;background: black;}
+#main_top{width:1910px;}
+/* main_poster 멜론로고 로그인 회원가입 */
+#main_poster{width:1910px; height:95px;border-bottom:1px solid gray;background-color: black;}
+#main_poster h1{display: none;}
+#main_img{float: left;margin-left:800px;margin-top:8px;}
+
+.main_pos2{color: white;float:right;margin-top: 33px;border:1px solid white;text-align: center; width:130px;height:30px;line-height:30px;}
+.main_pos2:hover{background-color:#00cd3c;color: black;font-weight: bold;}
+.main_pos1{margin-right:30px;margin-left: 10px;}
+
+
+
+
+/*main_pos*/
+.main_pos li{width:25px; height:7px; background-color:white;display:block; margin-bottom:4px;}
+/*main_list 차트.음악.멜론tv,멜론dj,메거진*/
+#main_list{clear:both;width: 1910px;height:40px; color: white;animation:1s ease-in; border-bottom:1px solid gray;background:black}
+
+/*main_list 돋보기*/
+#main_list p input{border: none; width:50px;float: left; height:35px;background:url(../logo/search.png)no-repeat 10px center;text-indent:50px;transition: 0.4s ease-in-out;color:white;margin-right: 160px;}
+#main_list p input:focus{outline:none; width:240px;color:white;}
+
+/*main_list li(멜론차트,최신음악,장르음악,멜론..*/
+#main_list p{float: left;}
+.list_up a{color:white}
+.list_up{float: left;width:250px;height: 40px;text-align: center;line-height:40px;background:black;font-weight: bold;position: relative;}
+/*#main_list1 #main_list1 a{color: white;}*/
+#main_list1 a:hover{color:#00cd3c; font-weight: bold;}
+#main_list1 > li > .submenu > li{float: left;}
+#main_list1 > li > .submenu{position: absolute ;left: 0;top: 35px; z-index: 10;height: 35px; line-height: 50px;}
+#main_list1 > li > .sub1{width: 500px; } /* 멜론차트 ul */
+#main_list1 > li > .sub2{width: 300px;} /* 최신음악 ul */
+#main_list1 > li > .sub3{width: 300px; left: -50px;} /* 장르음악ul */
+#main_list1 > li > .sub4{width: 500px; left: -80px;} /* 멜론tv ul */
+#main_list1 > li > .sub5{width: 400px; left: -70px;} /* 멜론dj ul */
+#main_list1 > li > .sub6{width: 400px;} /* 메거진 ul */
+#main_list1 > li > .submenu > li > a{font-weight: normal;color: white;font-size: 13px; margin: 0 10px;}
+#main_list1 > li > .submenu > li > a:hover{color: #f47216; border-bottom: 1px solid #f47216;}
+
+.l_bg{position:absolute;left: 0; top:137px; height: 40px; width: 100%;z-index:5;background-color:#666666;min-width: 192px;}
+
+
+/*메인플랜카드 앨범*/
+#placard_imgcard{color: white;width:1820px; height:600px;margin: 0 auto;padding-top: 10px;font-weight: bold;}
+#placard_imgcard p{font-size: 45px; margin: 0 auto; width:700px;height: 100px; text-align: center;margin-bottom: 5px; line-height: 50px;padding-top: 40px;}
+#placard_imgcard p:nth-child(2){font-size: 23px;height: 70px;line-height: 30px;}
+#placard_imgcard div{float: left;height: 300px;width: 1850px;position: relative;margin-top: 20px;}
+#placard_imgcard div img{margin-left: 10px;width: 200px;height: 200px;position: absolute;transform:scale(1);cursor:pointer; transition:all 0.2s;}
+#placard_imgcard img:nth-child(1){top:70px;}
+#placard_imgcard img:nth-child(2){left:230px;top:10px;}
+#placard_imgcard img:nth-child(3){left:460px;top:30px;}
+#placard_imgcard img:nth-child(4){top:70px;left:690px;}
+#placard_imgcard img:nth-child(5){top:30px;left:920px;}
+#placard_imgcard img:nth-child(6){top:0px;left:1150px;}
+#placard_imgcard img:nth-child(7){top:40px;left:1380px;}
+#placard_imgcard img:nth-child(8){top:70px;left:1619px;}
+#placard_imgcard div img:hover{transform:scale(1.2);}
+
+/*메인플랜카드*/
+#placard{width:1910px;height: 400px;
+    margin:0 auto;position: relative;}
+.plac_2{margin-left: 470px;width:1050px;margin-top: 10px;}
+#placard p{position:absolute;}
+#placard p:nth-child(1){top:50px;left:1420px;}
+#placard p:nth-child(2){top:50px;left:1435px;}
+#placard p:nth-child(3){top:50px;left:1450px;}
+#placard p:nth-child(4){top:50px;left:1465px;}
+#placard p:nth-child(5){top:50px;left:1480px;}

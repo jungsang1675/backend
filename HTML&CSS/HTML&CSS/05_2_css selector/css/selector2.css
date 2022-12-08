@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/*초기화*/
+ul,li{list-style:none;}
+
+/*ex1*/
+#ex1{background-color:#ffcccc; padding-left:0; margin-left:40px;}
+
+/*ex2*/
+/*p{background-color:orange;} 적절치 않음*/
+
+/*div p{background-color:orange;} 적절치 않음*/
+
+/*div#ex2 p{background:orange;}*/
+#ex2 p{background:orange;width:100px;height:30px;text-align:center;line-height:30px:}
+
+/*div#ex2 p.ex2_1{border-top:10px solid#cc0099;} OK 테두리위에 10PX 준다*/
+/*#ex2 p.ex2_1{border-top:10pxsolid #cc0099; ok}*/
+/*#ex2 .ex2_1{border-top:10pxsolid #cc0099;}ok*/
+/*p.ex2_1{border-top:10pxsolid #cc0099;} ok*/
+/*.ex2_1{border-top:10pxsolid #cc0099;ok*/
+
+#ex2 p.ex2_1{border-top:10px solid#cc0099;}
+#ex2 p.ex2_2{border-left:2px dotted#6600ff;}
+#ex2 p.ex2_3{border:3px dashed#33cc33;}
+#ex2 p.ex2_4{border-bottom:double#cc0066 4px;}
+#ex2 p.ex2_5{border-right:5px #9900cc groove;}
+#ex2 p.ex2_6{border:#0099ff ridge 5px;}
+#ex2 p.ex2_7{border:inset #ff6600 3px;}
+#ex2 p.ex2_8{border:outset 5px #0033ff;}
+#ex2 p.ex2_9{border:10px solid #ff3399; border-left:none; border-right:none;}
+#ex2 p.ex2_10{border-top:2px solid#ff3399;border-bottom:2px solid #ff3399;}
+/*ex3텍스트 대소문자*/ 
+.ex3_1{text-transform:capitalize;}
+.ex3_2{text-transform:uppercase;}
+.ex3_3{text-transform:lowercase;}
+
+/*ex4*/
+
+ex4_1{font-variant:normal;}  /*.default */
+.ex4_2{font-variant:small-caps;}
+
+/*ex5*/
+#ex5 *{margin:0;padding:0;} /*여백 초기화*/
+#ex5 p{border:3px solid #ff9999; width:500px;height:150px;font-size:100px;}
+#ex5 p span{font-size:12px; border-top:1px solid green;border-bottom:1px solid green;} 
+#ex5 p.ex5_1{vertical-align:super;}
+#ex5 p.ex5_2{vertical-align:sub;}
+#ex5 p.ex5_3{vertical-align:baseline;} /*default*/
+#ex5 p.ex5_4{vertical-align:top;}
+#ex5 p.ex5_5{vertical-align:middle;}
+#ex5 p.ex5_6{vertical-align:bottom;}
+
+/*ex6*/
+#ex6 *{margin:0; padding:0;}
+#ex6 p{border:1px solid #ff9999; width:400px;height:150px; font-size:100px;}
+#ex6 p.ex6_1{vertical-align:super;}
+#ex6 p.ex6_2{vertical-align:sub;}
+#ex6 p.ex6_3{vertical-align:baseline;}
+#ex6 p.ex6_4{vertical-align:top;}
+#ex6 p.ex6_5{vertical-align:middle;}
+#ex6 p.ex6_6{vertical-align:bottom;}
+
+/*ex7*/
+#ex7 *{margin:0; padding:0;} /*여백 초기화*/
+#ex7 p{border:1px solid green; width:400px; height:150px;}
+#ex7 p span{color:red;}
+#ex7.ex7_1 span{vertical-align:0px}
+#ex7.ex7_2 span{vertical-align:25px}
+#ex7.ex7_3 span{vertical-align:-25px}
+#ex7.ex7_4 span{vertical-align:-50px}
+
+
+
+
+
+

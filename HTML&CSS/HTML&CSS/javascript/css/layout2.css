@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.txt{color:#6666cc; text-decoration: underline;}
+
+.txt2{color:#cc0000;}
+
+.score{border-collapse: collapse};
+.score th, .score td{border:1px solid #666666; width:80px; height:30px;}
+.score td{text-indent: 10px;}
+.result_t{color:#ff0000; font-weight:bold;}

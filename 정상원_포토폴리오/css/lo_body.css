@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+
+/*약관동의 전체*/
+#log_wrap{margin: 0 auto; width: 480px;height: 100%;position:relative;top: 30px;color: gray;font-family:nanum,sans-serif;}
+/*대한민국,English*/
+#lang_warp{position: absolute; right: 10px;top:10px;line-height: 10px;}
+/*멜론 약관 선택사항*/
+#log_wrap img{margin-top:50px;margin-left:30%;margin-bottom: 30px;}
+#log_wrap span{font-size:15px;color:#1ec800;}
+#log_wrap div{margin-bottom:10px;}
+
+#log_wrap input{width: 0; height: 0;display: none;}
+label.type1{background: url(../images2/pc_chcek_off_s_20.png) no-repeat left center;-webkit-user-select: none; -ms-user-select: none;user-select: none;}
+#log_wrap textarea{resize: none;width: 475px;}
+#log_wrap label{font-size:18px;color: black;padding-left: 22px;text-align: left;}
+label.checked{background:url(../images2/pc_chcek_on_s_20.png) no-repeat left center;}
+.chk_lo1{font-size: 5px;line-height: 24px;}
+textarea{margin-top:7px;color: gray;font-size: 14px;line-height: 16px;font-family:nanum,sans-serif;}
+#chk_ok{float: left;}
+#chk_ok p{float: left;margin-top: 10px;padding-left: 5px;font-size: 14px;line-height: 15px;}
+.ckh_can{width:225px;height: 53px;margin-left: 10px;outline: none;border: none;border: solid 1px rgba(0,0,0,.08);border-radius: 2px;font-size:18px;color: #fff;}
+/*취소 동의*/
+.ckh_can1{background-color:gray;}
+.ckh_can2{background:#1ec800;}
+/* .ckh_can2 > a{color: white;border: 1px solid red;} */
+.ckh_join{color: white;}
+#click_log{margin-left: 50px;margin-top: 20px;}
+/*이용약관/위치기반서비스 이용약관/개인정보처리방침*/
+#click_log li{font-size: 15px;background: url(../images2/line.jpg) repeat-y left center;padding-left: 5px;float: left;margin-bottom: 10px;margin-right: 5px;}
+#click_log li:hover{text-decoration: underline;float: left;}
+#click_log li:nth-child(1){background: none;float: left;}
+#click_log li:nth-child(2){float: left;}
+#addr{clear: both;text-align: center;line-height: 20px;}
+#addr p{font-size: 14px;margin-bottom: 5px;}
+
+
+
+
+
+/*회원가입,아이디 찾기,비밀번호 찾기,로그인*/
+#loginwrap3{font-family: nanum,sans-serif;}
+#login_3type1{border-bottom:1px solid gray;width:1910px ;height: 65px;margin: 0 auto;line-height: 48px;}
+#login_3type1 img{float: left;margin-left:600px;}
+.wrap3_lo{float: left;text-align: center;width: 110px;padding-top: 15px;margin-right: 10px;cursor: pointer;}
+.wrap3_lo:nth-child(2){margin-left:300px;font-weight: bold;}
+.wrap3_lo a{color:black;}
+/*정보 입력*/
+#login_wrap3{width:1000px; margin: 0 auto;color: gray;}
+.put_1{clear: both;text-align: center;font-size:1.5em;margin-bottom:20px;margin-top:68px;color: black;font-weight: bold;}
+#login_wrap3_for{clear: both;border: 1px solid 
+gray;width: 550px;height: 620px;margin: 0 auto;}
+#login_wrap3_for2{margin: 0 auto;width:450px;height: 100%;}
+#login_wrap3_for p{clear: both; font-size:16px;margin-bottom:15px;padding-top: 10px; height:10px;}
+#login_wrap3_for p::after{content: "*";color: red;}
+#login_wrap3_for p:first-of-type{margin-top: 40px;}
+#login_wrap3_for input{border:none;outline: none;float:left;border-radius: 10px;background: #fafafa;height:48px;text-indent: 10px;}
+#email_list{height:40px;width:75px;margin-top:5px;border:none;outline:none;}
+.wrap3_btn{width: 118px;height: 49px;float: left;margin-left: 5px;border: none;border-radius: 10px;background: #eeeeef;color: gray;}/*중복확인 인증번호받기*/
+.wrap3_btn:hover{background:#5c5c5c;color: white;}
+#wrap3_eam{float: left;margin-top:20px;margin-right: 5px;margin-left: 5px;font-size: 18px;}/*@*/
+
+.wrap3_spa{clear: both;margin-bottom:5px;margin-top:10px;float: left;font-size:12px;text-indent: 10px;}/*4~12자/6~20자*/
+.wrap3_spa:last-child{margin-top:0;}
+.infor_pu_pwd{width: 400px;}/*비밀번호*/
+.wrap_type1{width: 266px;}/*아이디,휴대폰번호*/
+.push_btn_li{float:left;width: 400px;height: 50px;margin-top:20px;border: none;color: gray;border-radius: 10px;line-height: 52px;}/*가입하기*/
+.push_btn_li:hover{background:#5c5c5c;color: white;}
+
+/*이용약관/위치기반/개인정보처리*/
+#click_main2{float:left;width:350px;height: 30px;line-height: 30px;margin-top:15px;margin-left: 330px;}
+#click_main2 li{float:left;font-size: 13px;background: url(../images2/line.jpg) no-repeat left center;padding-left: 5px}
+#click_main2 li:hover{text-decoration: underline;}
+#click_main2 li:nth-child(1){background:none;}
+#click_main2 li:nth-child(2){margin-left:10px;margin-right:10px}
+#click_main2_p{clear:both;font-size: 14px;text-align: center;color: gray;}
+#click_main2_s{font-size:14px;margin-left:385px;display: block;margin-top: 5px;}
+

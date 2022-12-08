@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+    /* reset */
+body,input,section{font: 12px/1.5em nanum,sans-serif; color: #333333;}
+input,select{outline: none;}
+
+
+    /* 폰트 */
+@font-face{
+    font-family:nanum;
+    src:url('../font/NanumGothic.eot');
+    src:url('../font/NanumGothic.eot?#iefix')format('embedded-opentype'),
+            url('../font/NanumGothic.ttf')format('truetype'),
+            url('../font/NanumGothic.woff')format('woff');
+     }
+/* wrap */
+    #wrap{border: 2px solid #eaeaea; width: 540px; height: 630px; padding: 10px; margin: 30px auto;
+border-radius: 10px;}/* 전체 */ 
+#top_wrap{width: 540px; height: 70px; border-bottom: 1px solid #999999; position: relative;}
+#top_wrap h1{width: 219px; height: 32px; position: absolute; top: 20px; left: 50%; transform:translate(-50%,0);}/* 로고 */
+.top_home{float: right;margin-top: 28px;}
+.top_home a{color: #666666; display: block; background:url(../images/ico_home.gif) no-repeat 0 0;
+padding-left: 20PX; line-height: 13PX;  transition:all 0.3s;}
+.top_home a:hover{background-position: 0 -30px; color: #000000;}
+
+.main_img{clear:both; width: 540px; height: 120px;margin: 30px 0;}
+
+/* 회원 로그인, 비회원(주문조회) 제목 */
+#login_list{width: 540px; height: 50px; margin-bottom: 30px;}
+#login_list li{float: left; width: 270px; height: 50px;}
+#login_list li a{width: 270px; height: 50px; display: block; text-align: center; line-height: 50px;
+font-size: 15px; border-bottom: 1px solid #999999; color: #333333;}
+#login_list li a.selected1{border: 1px solid #999999; border-bottom: none;width: 269px;
+font-weight: bold; }/* js */
+
+
+/* login_con 회원 로그인,비회원(주문번호) 내용 */
+#login_con{clear: both; width: 540px; overflow: hidden;}
+/* 회원전체 */
+#login1{width: 540px;}
+#u_id, #u_pwd{border: 1px solid #cccccc; width: 534px; height: 50px; text-indent: 1em; margin-bottom: 10px;}/* 아이디,비밀번호 */
+
+#btn_wrap1,#btn_wrap2{width: 540px; height: 60px;margin-bottom: 10px;position: relative; overflow: hidden;} /* 로그인 버튼 */
+#s_btn1, #s_btn2, #s_btn3, #s_btn4{font-size: 15px; cursor: pointer; width: 540px; height: 60px; font-weight: bold;
+ position: absolute;}
+#s_btn1,#s_btn3{border: none; background-color: #ee2d7a; color: #ffffff; z-index:2;}
+#s_btn2,#s_btn4{border: 1px solid #ee2d7a; background-color: #ffffff; color: #ee2d7a;}
+
+/* 아이디 저장 , 로그인 상태 유지*/
+#chk_wrap1{height: 25px; margin-bottom: 25px;}
+#chk1, #chk2{width: 0; height: 0; overflow: hidden;}
+label.type01{background: url(../images/bg_checkbox.png) no-repeat 0 0; height: 24px; display: inline-block; padding-left: 30px;line-height: 24px; color: #666666; cursor: pointer; -webkit-user-select: none; -ms-user-select: none;user-select: none;}
+label.type01.checked{background-position: 0 -100px;}/* js */
+
+/* 아이디/ 비밀번호 찾기 아직 회원이 아니세요? */
+.search, .join{color: #666666; font-size: 15px; margin: 0 50px; padding-left: 20px;}
+.search{background: url(../images/bg_find.png) no-repeat 0 0;}
+.join{background: url(../images/bg_member.png) no-repeat 0 0;}
+.search:hover, .join:hover{background-position: 0 -30px; color: #000000;}
+
+/* 비회원 (주문조회) 전체*/
+#login2{width: 540px;}
+#u_order{border: 1px solid #cccccc; width: 534px; height: 50px; text-indent: 1em; margin-bottom: 10px;}
+#tel_wrap{height: 75px; margin: 15px 0;}
+#tel_wrap p{float: left;}
+#tel_wrap p span{margin: 0 3px;}
+#tel1, #tel2,#tel3{border: 1px solid #cccccc; height:50px;}
+#tel1{width: 130px; height: 52px;text-indent: 10px; color:#999999;}
+#tel2,#tel3{width: 180px; text-align: center;}
+
+
+
+
+
+
+

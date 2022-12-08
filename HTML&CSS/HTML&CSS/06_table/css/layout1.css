@@ -1,0 +1,89 @@
+@charset "utf-8"
+    
+/*초기화 reset*/
+/*bodt에서 제목크기는 안들어감*/
+/*
+    body{font-size:15px;}
+h2{font-size:100px;}*/
+    
+    body,h2{font-size:15px;font-family:"맑은 고딕","Malgun Gothic",sans-serif;line-height:1.5em;}
+
+/*ex1*/
+/*#ex1{border:1px solid #333333;}{border-spacing:10px;}*/#ex1{border-collapse:collapse;caption-side:bottom;}
+/*#ex1 tr{border:1px solid #333333;} 적용안됨*/
+/*#ex tr th,#ex1 tr td{border:1px solid #333333;} 예제1*/
+#ex1 th,#ex1 td{border:1px solid #333333;width:100px;height:40px;}
+
+/*ex1 th,th 잘못됨 ex1안에있는 th / th 모든파일에있는 th에들어감 */
+
+#ex1 td.ex1_1{text-align:left;}
+#ex1 td.ex1_2{text-align:center;}
+#ex1 td.ex1_3{text-align:right;}
+#ex1 td.ex1_4{vertical-align:top;}
+#ex1 td.ex1_5{vertical-align:middle;}
+#ex1 td.ex1_6{vertical-align:bottom;}
+
+/*#ex2*/
+#ex2{border-collapse:collapse;}
+#ex2 th,#ex2 td{border:1px solid blue;width:100px;height:20px;}
+#ex2 td{text-align:center;}
+
+
+/*#ex3*/
+#ex3{/*border-collapse:collapse*/; empty-cells:hide;}
+#ex3 th,#ex3 td{border:1px solid green;width:100px;height:20px;}
+#ex3 td{text-align:center;}
+/*ex4*/
+
+#ex4{border-collapse:collapse;}
+#ex4 th,#ex4 td{border:1px solid blue;width:100px;height:20px;}
+#ex4 td{text-align:center;}
+
+#ex5{border-collapse:collapse;}
+#ex5 th,#ex5 td{border:1px solid #999999;}
+#ex5 th{font-weight:normal; background-color:#cccccc;width:150px;height:40px;}
+#ex5 td{width:220px;text-align:center;}/*height:40px 생략가능왜념ㄴ th에이미 40이들어감 th에들어가면같이 td적용됨*/
+
+#ex6{border-collapse:collapse;font-size:16px;}
+#ex6 th,#ex6 td{border:1px solid #333333; text-align:center;}
+#ex6 th{background-color:#eaeaea;height:43px;}
+#ex6 mo1{width:81px;}
+#ex6 .mo2{width:218px;}
+#ex6 .mo3{width:414px;}
+#ex6 .mo4{width:235px;}
+#ex6 .mo5{width:199px;}
+#ex6 .mo6{height:42px;}
+
+/*ex7*/
+#ex7{border-collapse:collapse;}
+#ex7 th,#ex7 td{border:1px solid #333333;width:100px;height:20px;}
+#ex7 td{text-align:center;}
+/*ex8*/
+
+#ex8{border-collapse:collapse;}
+#ex8 th,#ex8 td{border:1px solid #999999;height:20px}
+#ex8 th{background-color:#cccccc;width:100px;}
+#ex8 td{width:150px;padding-left:10px}
+
+
+/*    ex9*/
+#ex9{border-collapse:collapse;}
+#ex9 th,#ex9 td{border:1px solid #333333;width:100px;height:20px;}
+#ex9 td{text-align:center;}
+
+/*ex10*/
+
+#ex10 #ex10{border:1px solid #333333;}
+#ex10{border-collapse:collapse; color:#333333;border:1px solid #333333;
+border-right:none;}
+#subject1{border-right:1px solid red;}
+#subject2{border-right:1px solid blue;}
+#subject3{border-right:1px solid yellow;}
+#ex10 th,#ex10 td(width:100px;height:20px;}
+#ex10 th{border-bottom:3px double #333333;background-color:#eaeaea;}
+#ex10 td{text-align:center;}:;text-align:center;
+
+
+/*ex11*/
+
+

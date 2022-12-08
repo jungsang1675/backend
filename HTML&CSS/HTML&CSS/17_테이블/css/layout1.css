@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+
+/*reset*/
+
+body,div,h3,table,caption,thead,tr,th,tbody,td,tfoot,a{margin:0; padding:0;}
+a{text-decoration:none; color:#333333;}
+/*font노멀에서 h하고 a안먹음*/
+body{font:normal 15px/1.5em "맑은고딕","Malgun Gothic",sans-serif;}
+body{font:normal 15px/1.5em "맑은고딕","Malgun Gothic",sans-serif; color:#333333;}
+
+/*wrap*/
+width:600px; height:480px; /*border:1px solid green;*/ margin-top:20px; margin-left:auto; margin-right:auto;
+#wrap h3{width:200px; height:20px; /*border:1px solid red;*/margin-left:auto; margin-right:auto;margin-bottom:30px; text-align:center;}
+
+
+
+#bbs{border-collapse:collapse;}
+#bbs caption{text-align:left;} /*게시판*/
+#bbs caption::before{content:"* ";}
+#bbs caption::after{content:" *";}
+#bbs thead tr th{border-top:3px solid #f998a3; /*border-bottom:3px double #ffcc66;*/ background-color:#ffffcc;}
+
+
+#bbs #u_no{width:100px;} /*번호*/
+#bbs #u_tit{width:300px;} /*제목*/
+#bbs #u_date{width:130px;} /*등록일*/
+#bbs #u_hit{width:70px;} /*조회수*/
+/*th td안에 높이30씩준다*/
+/*t head에 위아래로 크기를줬기떄문에 th에 선이 안늘어난다*/
+#bbs th,#bbs td{border:1px solid #cccccc; height:30px;}
+#bbs tbody tr:hover{background-color:#eaeaea; cursor:pointer;}
+#bbs tbody td{text-align:center;}
+#bbs tbody td.tit_txt{text-align:left; text-indent:25px;}
+
+#bbs tfoot td{border-left:none; border-bottom:none; border-right:none; text-align:center;}
+#bbs tfoot td a{font-weight:bold;margin:0 3px;}
+#bbs tfoot td a:hover{text-decoration:underline; color:#990066;}

@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+
+/*body{background:url(../images/bg2.png) no-repeat 530px 100px;}*/
+body{background:url(../images/bg2.png) no-repeat 530px 100px scroll;}
+/*body{background:url(../images/bg2.png) no-repeat 530px 100px fixed;}*/
+
+
+
+/*wear1*/
+#wrap1 > div{border:1px solid green; width:500px; height:300px; margin-bottom:20px;}
+#wrap1 >.box1{background-image:url(../images/icon1.gif);}
+#wrap1 >.box2{background-image:url(../images/icon1.gif);background-repeat:repeat;}
+#wrap1 >.box3{background-image:url(../images/icon1.gif);background-repeat:repeat-x;}
+/* 안됨#warp1 >.box4{background-image:url(../images/icon1.gif);background-repeat:no-repeat;}*/
+#wrap1 >.box4{background-image:url(../images/icon1.gif);background-repeat:repeat-y;}
+#wrap1 >.box5{background-image:url(../images/icon1.gif);background-repeat:no-repeat;}
+#wrap1 >.box6{background-image:url(../images/icon1.gif);background-repeat:no-repeat;background-position:center top;}
+#wrap1 >.box7{background-image:url(../images/icon1.gif);background-repeat:no-repeat;background-position:center center;}
+/* 안됨#warp1 >.box8{background:url(../images/icon1.gif) no-repeat center center};*/
+/*
+#warp1 >.box8{background:url(../images/icon1.gif) no-repeat center center;}
+#warp1 >.box9{background:url(../images/icon1.gif) no-repeat center;}
+#warp1 >.box10{background:url(../images/icon1.gif) no-repeat center;}
+*/
+
+
+
+/*wrap2*/
+/*w 150px X h 150px, 점선 */
+
+/* 내가한거
+#wrap2 > p{border:1px solid green; width:150px; height:150px;margin-bottom:20px;}
+#wrap2 >.ex1
+{background:#ffcc33;
+    background-image:url(../images/bg1.png) ;
+background-repeat:repeat-y;
+
+}
+#wrap2 >.ex2{background:#ccccff;
+background:url(../images/bg1.png);
+background-repeat:repeat-x;
+}
+#wrap2>.ex3
+{background:#ccff9a;
+    background:url(../images/bg1.png);
+background-repeat:no-repeat;
+}
+#wrap2>
+.ex4{background:url(../images/bg1.png);
+background-repeat:no-repeat;}
+#wrap2 >.ex5{background:url(../images/bg1.png);
+background-repeat:no-repeat;}
+*/
+/* 답지*/
+#wrap2 >p{border:1px dotted #333333; width:150px; height:150px;}
+#wrap2 >p.ex1{background:#ffcc33 url(../images/bg1.png) repeat-y 100px top;}
+#wrap2 >p.ex2{background:#ccccff url(../images/bg1.png) repeat-x left 100px;}
+#wrap2 >p.ex3{background:#ccff9a url(../images/bg1.png) no-repeat right top;}
+#wrap2 >p.ex4{background:#ffcccb url(../images/bg1.png) no-repeat left bottom;}
+#wrap2 >p.ex5{background:#cc9998 url(../images/bg1.png) no-repeat center top;}
+

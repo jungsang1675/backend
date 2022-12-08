@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prompt/confirm</title>
+</head>
+<body>
+    <script>    
+    document.write("+ prompt +" +"<br>");
+    //var um1 = prompt("좋아하는 숫자를 입력하세여","7");
+    //var num1 = prompt("좋아하는 숫자를 입력하세여");
+    //alert(num1);
+    //document.write(num1,"<br>");
+    //typeof 문자형으로나옴
+    //document.write(typeof(num1));
+
+    //var num2 = prompt("좋아하는 과목을 입력하세요");
+      //document.write(num2+"<br>");
+      //document.write(typeof(num2));
+      //var num3 =Number(prompt("좋아하는 숫자를 입력하세여"));
+      //document.write(num3+"<br>");
+      //document.write(typeof(num3));
+
+      //var num4 =parseInt(prompt("좋아하는 숫자를 입력하세여"));
+      //document.write(num4+"<br>");
+      //document.write(typeof(num4));
+        document.write("<hr>");
+
+        //confirm
+        document.write("* confirm *" ,"<br>");
+        //var txt = confirm(" 식사하셧나요?");
+        //document.write(txt+"<br>");
+        //document.write(typeof(txt));
+
+        //삼항조건연산자 +confirm
+        var q = confirm(" 당신은 코딩을 좋아하나요?");
+        var result = q ? "네" : "아니요";
+        document.write(result);
+    </script>
+</body>
+</html>

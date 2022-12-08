@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/*reset*/
+body,div,p,span,figure,img,figcaption,br,input{margin:0; padding:0;}
+body{font:normal 13px/1.5em "맑은 고딕","Maigun Gothic",sans-serif; color:#333333;}
+
+
+/*infor_wrap*/
+#infor_wrap{width:960px; height:380px; border:1px solid blue; margin:10px auto;} /*w190+190+580 h 380*/
+
+#infor1{float:left; width:190px; height:380px;}
+#infor1 figure{width:190px; height:190px; border:1px solid red; box-sizing:border-box; text-align:center; padding-top:30px;}
+
+#infor1 figure:first-child{background-color:#e84e56; color:#ffffff;}
+#infor1 figure:last-child{background-color:#e0d3cb;}
+
+#infor2{ float:left; width:580px; height:380px; position:relative;}
+.infor2_2, .infor2_3, .infor2_4,.infor2_5{position:absolute; z-index:2; left:30px;}
+/*처음기준으로부터 즉 infor2테투리 위기준에서부터*/
+.infor2_1{width:580px; height:380px;}
+.infor2_2{top:20px; letter-spacing:-1px;} /*많은 사람들이*/
+.infor2_3{top:50px; font-size:25px; font-weight:bold;letter-spacing:-1px;} /*궁금중...*/
+.infor2_3 span{color:#2c88aa;}/*FAQ*/
+.infor2_4{top:100px;} /*카드 상품 혜택*/
+.infor2_5{top:180px;} /*답변보기*/
+.infor2_5 input{border:none; background:#555536; color:#ffffff; width:150px; height:30px; font-weight:bold; cursor:pointer;}
+.infor2_5 input:hover{background:#999999;}
+
+
+
+#infor3{float:left; width:190px; height:380px;}
+#infor3 figure{width:190px; height:190px; border:1px solid red; box-sizing:border-box; text-align:center; padding-top:30px;}
+
+#infor3 figure:first-child{background-color:#e0eaeb;}
+#infor3 figure:last-child{background-color:#1f8cb3;  color:#ffffff;}

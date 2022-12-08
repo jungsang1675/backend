@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/*reset*/
+body,p,img,div{margin:0; padding:0;}
+img{border:2px solid red; background-color:#ffffff;}
+
+#ex1{position:absolute; left:400px;top:20px;}
+/*EX2 원래있었던 공간이 빔*/
+#ex2{position:relative; left:200px; top:30;}
+#ex3{position:fixed; top:40px; right:50px;}
+#ex4{border:1px solid blue; width:500px;
+height:500px;margin:50px;position:relative;}
+#ex4 img{position:absolute; right:100px; bottom:200px;}
+/*ex4 테투리가 부모 img가 자식요소*/
+#ex5{background-color:orange;border:2px solid #e33111; padding:5px; position:-webit-sticky;position:sticky; top:0; left;0;}
+/*sticky 위에서는고정되어있다가 sticky 지나간후로 고정됨*/
+#ex6{padding-bottom:1000px;}
+
+/*relative + absolute 가장많이씀
+부모요소안에서 (크기) 자식요소를 배치 /가장많이씀/
+부요소 relative (w+h) 자식요소 absolute
+*/
+

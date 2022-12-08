@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* 
+hegiht : auto(default)
+min-hegiht : 최소높이, 내용이 최소높이보다 작으면 최소높이가 적용됨, 내용이 최소높이보다 크면 적용되지않음.
+max-hegiht : 최대높이 , 내용이 최대높이보다 크면 overflow, 내용이 최대높이보다 작으면 적용되지 않음
+*/
+
+
+*{box-sizing: border-box;}
+#wrap > p{border: 1px solid #999999; width: 50%; margin: 10px auto;}
+.ex1{background-color: yellow; height: 100px;}
+.ex2{background-color: yellowgreen;height: auto;}
+.ex3{background-color: orange; min-height: 100px;}/* 내용이 지정한 사이즈보다 높아서 안먹음 */
+.ex4{background-color: orangered;min-height: 100px;}/* 내용이 적어서 적용됨 */
+.ex5{background-color: pink; max-height: 100px; overflow: hidden;}/* max는 넘어가 voerflow : scroll hidden 등등씀 */
+.ex6{background-color: hotpink; max-height: 100px;}
+.ex7{background-color: lightblue;height: 130px; min-height: 100px;}/* 사이즈가 커도 최소높이적용하면 높이가적용됨 */
+.ex8{background-color: yellow;height: 130px; min-height: 100px;}
+.ex9{background-color:olive;height: 130px; max-height: 100px;}/* 최대높이로 적용됨 */
+.ex10{background-color:olivedrab;height: 130px; max-height: 100px;}

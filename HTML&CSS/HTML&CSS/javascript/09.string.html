@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>String</title>
+    <script>
+        var text1 = "자바스크립트 JavaScriapt";
+        document.write(text1+"<br>");
+        document.write(text1.bold()+"<br>");//굵게
+        document.write(text1.link("http://m.naver.com")+"<br>")//링크
+        document.write(text1.length+"<br>");//글자 갯수 공백포함
+        document.write(text1.toLowerCase()+"<br>");// 대문자를 소문자로
+        document.write(text1.toUpperCase()+"<br>");// 소문자를 대문자로
+        document.write(text1.indexOf("J")+"<br>");// 앞에서인덱스번호(공백포함안하는듯)
+        document.write(text1.indexOf("a")+"<br>");// 8로나옴  
+        document.write(text1.indexOf("o")+"<br>");//텍스트가 없으면 -1로나옴   
+        document.write(text1.lastIndexOf("a")+"<br>");//끝에서 인덱스 번호 15   
+        document.write(text1.charAt(3)+"<br>");//해당 인덱스 번호 데이터 크
+        document.write(text1.substring(7,10)+"<br>");//jav ///n1번부터 n2번-1 인덳까지의 ㅜㄴ자 데이터를 반환
+        document.write(text1.substr(5,4),"<br>");//n1번 인덱스부터 n2글자 전환(공백포함 ) //트 공백 J a
+        document.write(text1.replace("Java","aaaa")+"<br>");///n1를 n2 치환(바꿔서)하여 전환 자바스키릅트 aaaaScript
+        document.write(text1.slice(3,10)+"<br>"); //n1번부터 n2-1 인덱스까지의 일부만 잘라서 반환, -를 넣으면 뒤에서,크림트 Jav
+        document.write(text1.concat("Sc")+"<br>");//끝에 n1의 문자를 결합하여 반환 자바스크립트 JavaScriaptSc
+        document.write(text1.split(" ")+"<br>");//n1을 기준으로 데이터를 분리(콤마) 자바스크립트,JavaScriapt
+        document.write(text1.split("a")+"<br>");//자바스크립트 J.v,Scri.pt
+    </script>
+</head>
+<body>
+    
+</body>
+</html> 

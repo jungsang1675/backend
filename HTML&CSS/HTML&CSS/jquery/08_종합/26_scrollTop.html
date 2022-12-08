@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+       $(Window).scroll(function(){
+        $(".txt").text(parseInt($(this).scrollTop()));
+       if($(this).scrollTop() > 100){
+       $("#contents").addClass("s_txt");
+    }else{
+        $("#contents").removeClass("s_txt");
+       }
+        });
+    });
+    </script>
+    <style>
+body,p{margin: 0; padding: 0;}
+body{height: 1600px;}
+.txt{position: fixed; left: 0; top: 0;}
+#contents{position: fixed; left: 0; top: 100px;}
+.s_txt{background-color: pink;}/* js */
+    </style>
+</head>
+<body>
+    <p class="txt">출력</p>
+    <p id="contents">내용입니다.</p>
+</body>
+</html>

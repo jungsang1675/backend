@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+/*reset*/
+ul,li{list-style:none;}
+a{text-decoration:none;}
+body,div,h3,span,h4,p,br,form,input,label,ul,li,a{margin:0 ; padding:0;}
+body,input{font:normal 14px/1.5em "맑은 고딕","Malgun Gothic",sans-serif; color:#333333;}
+
+    
+    /*    login_title*/
+/*    높이 120인데 90으로바꾼이유 패딩탑 30을 줬기떄문에 90으로 맞혀줌*/
+    #login_title{width:100%; height:120px; background-color:#8ccdeb; margin-bottom:50px;}
+#login_title h3{font-size:20px; width:600px; height:90px; margin-left:auto; margin-right:auto; font-weight:normal; color:#ffffff; text-align:center; line-height:30px; background:url(../images/bg1.png) no-repeat right;padding-right:120px;padding-top:30px;}
+#login_title h3 span{font-size:15px; display:block}
+
+#login_container{width:900px; border-top:1px solid #333333;  margin-left:auto; margin-right:auto;  background:url(../images/bg_login.jpg)no-repeat 50px center; padding-left:450px; box-sizing:border-box; padding-top:40px;}
+
+#login_container > h4{height:20px;font-size:20px; margin-bottom:10px; }/*login*/
+#login_container > p{height:40px;margin-bottom:15px; }/*로그인이 필요합니다*/
+
+#u_id, #u_pwd{border:1px solid #999999; width:300px; height:35px;text-indent:1em;margin-bottom:5px; outline:none;}/*아이디,비밀번호*/
+
+.login_chk{height:20px; margin-bottom:10px;}
+
+.login_chk input{float:left; margin-top:3px; margin-right:5px;}
+/*체크박스 */
+.login_chk label{float:left;}
+/*아이디저장*/
+
+.login_sub{clear:both; height:35px; margin-bottom:10px;}
+.login_sub input{background-color:#f05b95;color:#ffffff; border:none;width:300px; height:35px; letter-spacing:2px;}
+.login_sub input:hover{background-color:#ffffff; color:#f05b95; border:1px solid #f05b95; cursor:pointer;}
+/*로그인*/
+
+.login_list{height:25px;}/*아이디 찾기*/
+.login_list li{float:left; background:url(../images/bar1.jpg) no-repeat left center; padding-left:10px;margin:0 5px;}
+.login_list li:first-child{background:none; padding-left:0;  margin-left:0}
+/*아이디 찾기*/
+.login_list a{color:#333333;}
+.login_list a:hover{text-decoration:underline;}
+
+
+
+
+
+

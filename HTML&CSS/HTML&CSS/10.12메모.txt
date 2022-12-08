@@ -1,0 +1,24 @@
+display
+블록요소 줄바뀜해주는요소
+인라인 줄바꿈없는 요소 SPAN EM starong a  
+display :black 인라인 --> 블록 
+인라인스타일 싸이즈 변경 x 줄바꿈안되고
+블록요스 태그 h1~ p,div,li 줄바꿈되고 사이즙변경됨
+img는제외
+
+
+dislplay  : inline블록 ---> 인라인
+dislplay  : inline :
+dislplay  : none 공간도 숨김
+
+
+
+visibility
+요소를 표시하거나 숨길때 씀
+visibility :visible 기본값
+visibility : hidden 내용 공간은남음
+
+display:list-item
+li처럼 앞에 .이생김 li처럼 블릿기호쓸수있음
+
+display:inline-table 지정한너비까미나 인라인형태, 너비넘으면다음주로 바뀜 ,자동줄바꿈.표형태

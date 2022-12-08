@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* 폰트 */
+@font-face{
+    font-family:nanum;
+    src:url('../font/NanumGothic.eot');
+    src:url('../font/NanumGothic.eot?#iefix')format('embedded-opentype'),
+            url('../font/NanumGothic.ttf')format('truetype'),
+            url('../font/NanumGothic.woff')format('woff');
+}
+
+@import url(top.css);
+@import url(body.css);
+

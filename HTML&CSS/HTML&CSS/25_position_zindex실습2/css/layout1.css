@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+
+/*reset*/
+div,p,img,h3,br{padding:0; margin:0;}
+
+/*wrap*/
+#wrap{ width:1180px; height:565px;margin:0 auto;background-color:red;}
+h3{color:white;font-size:21px;font-weight:normal;line-height:1.5em}
+span{border-radius:50%;font-size:1px;padding:4px;}
+
+
+
+/*left_wrap*/
+#left_wrap{width:586px; height:565px;float:left;}
+
+#left_wrap>div:nth-child(1){width:586px;height:380px;float:left;}
+/*왼쪽위층*/
+#left_wrap>div:nth-child(1)>div{width:293px; height:370px;background:url(../images/bg_1.gif)no-repeat;float:left;position: relative;}
+#left_wrap>div:nth-child(1)>div>h3{position: absolute;top:50px;left:30px;}
+#left_wrap>div:nth-child(1)>div>h3>span{margin-left:7px;}
+#left_wrap>div:nth-child(1)>div>p{position: absolute;top:210px;left:80px;}
+
+/*왼쪽아랫층*/
+#left_wrap> div:nth-child(2)>p:nth-of-type(1){width:293px;height:188px;float:left;}
+#left_wrap> div:nth-child(2)>div{width:293px;height:185px;float:left;background:url(../images/bg_2.gif)no-repeat;position: relative;}
+#left_wrap> div:nth-child(2)>div>h3{position: absolute;top:40px;left:105px;}
+#left_wrap> div:nth-child(2)>div>p{position: absolute;top:100px;left:60px;}
+
+
+
+
+
+
+
+/*right_wrap*/
+#right_wrap{width:586px;height;565px;float:right;}
+/*오른쪽위층*/
+#right_wrap>div:nth-child(1){width:584px; height:199px;}
+#right_wrap>div:nth-child(1)>div{width:292px; height:187px;float:left;background:url(../images/bg_3.gif)no-repeat;position: relative;}
+#right_wrap>div:nth-child(1)>div>h3{position: absolute;top:40px;left:40px;}
+#right_wrap>div:nth-child(1)>div>p{position: absolute;top:80px;left:168px}
+
+/*오른쪽아래쪽집친구*/
+
+
+/*CONTACT*/
+#right_wrap>div:nth-child(2)>div:nth-of-type(1){background:url(../images/bg_4.gif)no-repeat;float:left;width:293px;height:370px;position: relative;}
+#right_wrap>div:nth-child(2)>div:nth-of-type(1)>h3{position: absolute; top:50px;left:40px;}
+#right_wrap>div:nth-child(2)>div:nth-of-type(1)>p{position: absolute; top:240px;left:190px;}
+/*RECRUIT*/
+#right_wrap>div:nth-child(2)>div:nth-of-type(2){background:url(../images/bg_3.gif)no-repeat;float:right;width:293px;height:370px;position: relative;}
+#right_wrap>div:nth-child(2)>div:nth-of-type(2)>h3{position: absolute; top:50px;left:40px;}
+#right_wrap>div:nth-child(2)>div:nth-of-type(2)>p{position: absolute; top:240px;left:190px;}
+
+
+
+

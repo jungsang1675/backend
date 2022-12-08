@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/*reset*/
+
+ul,li{list-style:none;}
+ul,li,a,hr,p,span,input,button{margin:0;padding:0;}
+a{text-decoration:none; color:#000000;}
+
+/*ex1 한줄로표시 ul에주는게아니라 li에줘야됨 li :block임;*/
+/*.ex1 li{display:inline} ok*/
+/*.ex li a{display:inline;} x*/
+/*a에 주는게아니라 li인라인은 하위에있는거에 주면안됨*/
+/*.ex1 li{float:left;}ok*/
+
+/*.ex1 li a{float:left; }*/
+/*float는 li에있든 a에있든 적용이됨*/
+
+.ex2{border:1px solid blue; height:80px; display:none;}
+/*display:none; 화면을 숨김*/
+/*.ex2{display:inline;}*/
+/*나오긴 나오는데 인라인성격으로나옴*/
+
+.ex2{display:block;}
+/*none했을때 보통 짝궁처럼 block을씀*/
+
+/*ex3*/
+.ex3{background:url(../images/dimchage1.jpg) no-repeat; width:488px;height:396px;}
+.ex3 span{display:none;}
+/*span태그를 숨김*/
+    
+
+/*ex4*/
+.ex4{border:1px solid green; height:80px; visibility:hidden;}
+.ex4{display:block;}/*적용이안됨*/
+.ex4{visibility:visible;}/*비지블티(기본값)실행하니깐 됨*/
+
+
+/*ex6*/
+/*https://www3schools.co/cssref/css_*/
+.ex6 li{color:green;} /*list-style-type:disc;margin-left:20px;*/
+/*li 앞에가 기본색으로  똑같이들어감 다른방법으로 색바꾸고싶으면 통화기호넣어라 비포도 사이즈가잘안먹음*/
+.ex6 li::before{content:"\2022";color:red;  width:10px; display:inline-block;}
+
+/*ex7*/
+.ex7{background-color:#999999; width:500px; height:56px; overflow:auto; white-space:nowrap; margin:30px 0;}
+.ex7 a{width:100px;height:50px;display:inline-block; text-align:center; line-height:50px;}
+.ex7 a:hover{background-color:#6699ff;}
+.ex7::-webkit-scrollbar{height:6px;}
+/*스크롤바 높이*/
+.ex7::-webkit-scrollbar-track{background-color:pink;}
+/*스크롤바 색상*/
+.ex7::-webkit-scrollbar-thumb{background-color:orange;}
+/*드래그가능한스크롤바*/
+.ex7::-webkit-scrollbar-thumb:active{background-color:green;}
+/*마우스를 누르고있을때 색상*/
+
+/*ex8*/
+.ex8{background-color:#999999; width:500px; height:56px; overflow:auto; white-space:nowrap; margin:30px 0; direction:rtl;}
+/*rtl 스크롤바 오른쪽에서 왼쪽으로 방향 변경*/
+.ex8 a{width:100px;height:50px;display:inline-block; text-align:center; line-height:50px;}
+.ex8 a:hover{background-color:#6699ff;}
+.ex8::-webkit-scrollbar{height:6px;}
+/*스크롤바 높이*/
+.ex8::-webkit-scrollbar-track{background-color:pink;}
+/*스크롤바 색상*/
+.ex8::-webkit-scrollbar-thumb{background-color:orange;}
+/*드래그가능한스크롤바*/
+.ex8::-webkit-scrollbar-thumb:active{background-color:green;}
+/*마우스를 누르고있을때 색상*/
+
+
+
+/*ex9*/
+.ex9{background-color:#eaeaea; width:300px; height:40px; line-height:40px;text-align:center;margin:30px 0;}
+.ex9 li{display:inline; font-size:17px; padding:7px;}
+.ex9 li+li::before{content:"/ ";}
+/*li+li 첫번째 li빼고인라인 준이유 li는 block이니깐 플로트로 붙어있으면 어그레인 안먹음*/
+.ex9 li:first-child a{color:#01447e;}
+/*첫번째 li안에있는 a */
+.ex9 li a:hover{color:#0275d8; text-decoration:underline;}
+
+/*ex10*/
+.ex10{width:800px; height:40px; background:#e9e9e9; margin:30px 0;}
+.ex10 ul{border:1px solid red; float:left; width:300px; height:40px;}
+.ex10 ul li a{width:100px; height:40px;}
+.ex10 ul li a:hover{background-color:#cccccc;}
+.ex10 ul li a.active{background-color:#6699cc; color:white;}
+.ex10 ul li{float:left; width:100px; height:40px; display:block;line-height:40px; text-align:center;}
+/*block 줄바꿈인데 이미 플로트로 줄맞혀놔서 안먹힘 ul안 영역 */
+
+.ex10 div{ float:right; width:185px; height:35px; margin-top:2px;}
+/*이렇게 되면 ul div사이즈가 자동으로 바뀜*/
+/*속성으로도 css입힐수있음*/
+.ex10 div input[type="search"]{float:left; width:150px;height:35px;border:none;outline:none;text-indent:1em;}
+/*outline:none; 아웃라인선*/
+.ex10 div button[type="button"]{float:left; width:35px;height:35px;  background-color:#999999;border:none;outline:none; cursor:pointer;}
+/*폰태그 a가들어가면안됨*/
+
+/*ex11*/
+.ex11{clear:both; border:1px solid red; height:35px; margin:30px 0;}
+.ex11 li{float:left; width:34px; height:34px; margin:0 1px;}
+.ex11 li img:nth-child(2){display:none;}
+.ex11 li:hover img:nth-child(2){display:block;}
+.ex11 li:hover img:nth-child(1){display:none;}
+
+
+/*ex12*/
+.ex12{border:1px solid red; height:150px; margin:30px 0;}
+.ex12 input[type="checkbox"]+div{background:red; width:300px; height:100px; display:none;}
+/*체크박스뒤에있는 div*/
+.ex12 input[type="checkbox"]:checked+div{display:block;}
+

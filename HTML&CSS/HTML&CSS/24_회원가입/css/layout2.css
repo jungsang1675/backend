@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+/*
+ol
+li
+li안에서 p이미지 아래는 span 배경이미지넣고 맨밑에 ul li css로 타입변경 비포로 ul앞에 별같은거넣어라 */
+/*2번째 분노는... 이거감추기*/
+
+/*reset*/
+body,div,h3,form,p,label,input,select,option,span,textarea{margin:0; padding:0;}
+body,input,select,option,textarea{font:normal 14px/1.5em nanum,sans-serif; background-color:#ffffff; color:#333333;}
+input,select,option,textarea{outline:none;}
+/*폰트*/
+@font-face{
+		font-family:nanum;
+		src:url('../font/NanumGothic.eot');
+		src:url('../font/NanumGothic.eot?#iefix')format('embedded-opentype'),
+			url('../font/NanumGothic.ttf')format('truetype'),
+			url('../font/NanumGothic.woff')format('woff');}
+
+
+/*wrap*/
+#wrap{width:602px; height:470px;border:1px solid red; margin:20px auto;}/*전체*/
+#wrap > h3{height:20px; margin-bottom:20px; text-align:center;}
+/*회원가입폼*/
+#form_wrap{width:600px; border:1px solid #999999;}
+
+.line{height:40px; border-bottom:1px solid #999999; clear:both;}
+/*공통*/
+.line2{height:130px; border-bottom:none;}
+/*자기소개*/
+
+.l_con{background-color:#ccccff; width:100px; height:40px; display:block; float:left; text-indent:10px; line-height:40px;}/*좌측공통*/
+
+.l_con2{height:130px;}/*좌측 자기소개*/
+
+.r_con{float:left;width:500px; padding-left:10px; box-sizing:border-box; height:40px; line-height:40px;}
+/*우측공통*/
+.r_con2{height:130px;}
+/*우측 자기소개*/
+
+#wrap input, #u_tel1,.email3 select,#write{border:1px solid #999999;}
+.infor{color:red;}/*공통*/
+
+#u_name, #u_id,#u_pwd{width:200px; height:25px;text-indent:10px;}
+/*이름,아이디,패스워드*/
+
+#chk1,#chk2{vertical-align:-2px;}
+
+/*남자여자*/
+
+.te1, .tel2, .te3,.tel2,tel5{float:left;}
+/*연락처*/
+
+tel2,tel4{margin:0 5px;}
+/*span*/
+#u_tel1,#u_tel2,#u_tel3{width:100px; height:25px; text-indent:10px;}/*연락처 select,input*/
+.email,.email,.email3{float:left;}
+/*이메일*/
+email{margin:0 5px;}
+/*span @*/
+#u_email,.email3 select{height:25px;text-indent:10px;}
+/*이메일 input,select*/
+#write{width:300px; height:100px; margin-top:13px; resize:none;}/*자기소개*/
+
+.btn{background:yellow; margin-top:10px; text-align:center;}
+/*회원가입,다시작성*/
+.btn input{width:100px; height:25px; cursor:pointer;}
+.btn input:hover{background-color:#999999; color:#ffffff;}
+
+
+
+
+
+
+

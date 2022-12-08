@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/*하나완성하면 선은다뺴라 나중에 다틀어질수도있음*/
+#quick_wrap{width:100%; height:45px; background-color:#eaeaea; min-width:1200px;}
+.quick{width:1200px; height:45px;margin:0 auto;text-align:right;line-height:45px;}
+.quick li{display:inline-block; margin-left:10px;background:url(../images/line.jpg) no-repeat left center; padding-left:10px;}/*회워가입 고객센터*/
+.quick li:first-child{margin-left:0; background:none; padding-left:0;}/*로그인*/
+.quick li:last-child{background:none;padding-left:0;}/*mypage*/
+.quick li:last-child a{background-color:#aaaaaa; color:#ffffff; width:65px; height:22px;display:inline-block;line-height:22px; text-align:center; border-radius;20px;}
+.quick li:last-child a:hover{background-color:#373427;}
+
+
+#top{width:1200px; height:65px;margin:0 auto;position:relative;}
+/*마크업에서 사진넣으면 보더가 쫌크게잡히는게있음 그래서 사이즈를넣어줘야됨*/
+#top h1{width:108px; height:108px;position:absolute; left:0; top:-20px;z-index:3;}/*ECC*/
+
+#main_navi{float:right;width:980px; height:65px;}
+#main_navi ul{width:980px; height:65px;line-height:65px;}
+#main_navi ul li{float:left; width:163px; height:65px;text-align:center;}
+#main_navi ul li:last-child{width:165px;text-align:right; margin-top:15px;} /*영어유치부*/
+#main_navi ul li a{color:#666666; font-size:18px;}
+#main_navi ul li a:hover{color:#000000;}

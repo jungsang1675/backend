@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정상원</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/lo_top.css">
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/login.js"></script>
+</head>
+
+<body>
+    <div id="melon_wrap">
+        <form action="index.html" method="post">
+            <a href="index.html"><img src="images2/img_logo206x56.png" alt="멜론로고" width="206" height="56" id="melonpic"></a>
+            <p class="login_ma_lo">QR코드로 로그인 <img src="images2/btn-login-infoicon.png" alt="도움말" title="PC방 / 공용 환경에서는 QR코드 로그인으로
+아이디, 비밀번호 입력없이 안전하게 로그인 할 수 있어요" class="login_help_1"></p>
+            <img src="images2/QRCodeImg.jpg" alt="큐알코드" width="204" height="204" id="melon_qr_main">
+            <div id="login_main">
+                <input type="text" placeholder="아이디를입력하세요.." id="txt1" required autofocus autocomplete="off">
+                <label for="txt1"></label>
+                <input type="password" placeholder="비밀번호입력하세요.." id="pwd1" required autocomplete="off">
+                <label for="pwd1"></label>
+            </div><!--login_wrap-->
+            <div id="chk_main">
+                <input type="radio"  name="lo_join" id="chk1"><label for="chk1">아이디 저장</label>
+                <input type="radio"  name="lo_join" id="chk2"><label for="chk2">로그인 상태 유지</label>
+            </div><!--login_wrap-->
+            <div id="find_main">
+                <a href="index.html">아이디 찾기</a>
+                <a href="index.html">비밀번호 찾기</a>
+                <a href="login_main2.html">회원가입</a>
+            </div><!--find_main-->
+            <div id="chk_main2">
+                <button type="button">멜론 로그인</button>
+                <button type="button">카카오톡 로그인</button>
+            </div><!--chk_main2-->
+            <ul id="click_main">
+                <li>이용약관</li>
+                <li>위치기반서비스 이용약관</li>
+                <li>개인정보처리방침</li>
+            </ul><!--click_main-->
+            <p class="click_ma_call">문의전화 : 1666-7727(평일 09:00 ~ 18:00. 유료)</p>
+            <span>&copy; Kakao Emtertainment Corp.</span>
+        </form>
+    </div><!--melon_wrap-->
+
+</body>
+
+</html>

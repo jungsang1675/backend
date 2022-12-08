@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+
+/*전체선택자*/
+*{font-size:15px;font-family:"돋음",Dotum,sans-serif;/*height:2em;*//*line-height:200%;*//*line-height:2;
+    */
+/*line-height:30px*/ line-height:200%;}
+
+/*태그(요소)선택자*/
+dt{
+background-color:#99cc33;
+    color:#ffffff;
+    font-size:17px;
+    font-family:Arial,sans-serif;
+    font-weight:bold;
+    width:200px;
+    height:33px;text-align:center;}
+
+/*아이디선택자*/
+#tit2{background-color:#99cc33;width:500px; height:390px;text-align:justify;margin-left:0;margin-top:10px;padding:30px;}
+/*w 500+ 좌 15 우+15 h 390 위 15 아래 15*/
+/*클래스선택자*/
+.tit{color:yellow; /*margin:0 auto;*/ margin-left:auto;margin:auto;}

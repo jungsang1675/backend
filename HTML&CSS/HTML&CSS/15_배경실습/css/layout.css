@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*사실했는데 이해안감 ㅋㅋ*/
+#wrap img{
+    border-radius:50%;
+    padding-right:10px;
+    box-shadow:0 0 10px #717171;
+    margin-right:10px;         
+    padding:10px}
+
+#wrap span{
+    padding-left:13px;
+    font-size:11px;
+    color:#717171;}
+#wrap h2{
+    background:url(../images/icon.gif) no-repeat left; color:#a56dff;
+    margin-bottom:15px;
+    padding:15px;
+    }
+#wrap >p{color:#6b6a70;
+    font-size:13px;
+    }
+#job >div{
+    padding-left:100px;border:1px solid #e4ebf5;       margin-bottom:20px;
+    border-radius:20px;
+    }
+#job div>h3{
+    color:blue;
+    margin-bottom:-17px;
+           }
+
+
+#job div:nth-child(1){
+    background:#a6cafe url(../images/bg_1.png) no-repeat 16px;
+                     }
+#job div:nth-child(2){
+    background:#a6cafe url(../images/bg_2.png) no-repeat 20px;
+                     }
+#job div:nth-child(3){
+    background:#a6cafe url(../images/bg_3.png) no-repeat 20px;    
+                     }
+#job div:nth-child(4){
+    background:#a6cafe url(../images/bg_4.png) no-repeat 20px;
+                     }
+

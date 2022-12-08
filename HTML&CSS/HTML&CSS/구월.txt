@@ -1,0 +1,39 @@
+3 rgba(red,green,blue,alpha)  ex) rgbcolor:rgba(114.25,26,0.7) *
+rgb색상단위(0~255) ,불투명
+4 rgba(red,green,blue,alpha) color:rgba
+
+
+
+
+
+
+
+
+
+
+hsl (숫자,퍼센트.퍼센트
+
+글자크기 font-size initilal inherit
+
+font-size : medium(defailt) xx-small(이런거잘안먹음 수치넣어야잘먹음) x-small * / small /large /x-large/xx-large/smaller/larger/length/initial/inherit
+=>px, (기본픽셀 16px) 제목제외 내용 =1em(같은크기)=100%=12pt
+initial - ie11이상에서만지원, 초기값 (default)으로돌림
+inherit - 부모값 상속, ie8이상에서만 지원
+
+px 픽셀,고정단위
+em 배수, 부모요소의 크기에 따라 자동으로 크기가 변경됨, 0.85em 과 같이 보다 정교하게 폰트크리를 조절.
+pt 포인트, 일반 문서에서 많이 사용
+% 부모요소의 크기를 기준으로 %
+속성값에 따라 지원되는 브라우저가 다름
+
+글자굵기
+font-weight: narmal(default) bold ( bolder* lighter) 잘안먹음 *( number ) 잘안먹음* initial  inherit;
+
+font-weight: normal 보통 / font-weight:400 보통=400
+font-weight: bold 굵게 / font-weight:700
+font-weight : 숫자(100~900) 
+
+외부 스타일 
+
+<link re1="stylesheet" href="폴더명/파일명.css">
+<link re1="stylesheet" href="폴더명/파일명.css" media="all" > media="용도"

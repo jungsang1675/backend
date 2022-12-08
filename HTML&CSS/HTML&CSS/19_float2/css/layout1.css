@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/*reset*/
+
+div,h1,p,img,h2{margin:0;padding:0;}
+#wrap{width:650px;height:202px;}
+#reviews{margin-left:10px; border-bottom:3px solid gray;padding-bottom:10px;width:630px;} 
+#reviews h1{float:left;margin-right:25px;font-size:25px;margin-top:5px;}
+#reviews p{padding-top:10px;}
+
+#star{height:148px;}
+#star h2{font-weight:normal;font-size:19px;margin-left:10px;}
+#star #box1{ float:left; width:80px;margin-top:7px;}
+#star #box2{float:left; width:350px;margin-left:50px;}
+#star #box3{float:right; width:100px;font-size:20px; padding-top:6px;text-align:right;margin-right:10px;}
+#box2 >div{margin-top:10px;}
+#box2 >div:nth-child(1){width:400px; height:18px;background:#f1f1f1;}
+#box2 >div:nth-child(2){width:400px; height:18px;background:#f1f1f1;margin-top:10px;}
+#box2 >div:nth-child(3){width:400px; height:18px;background:#f1f1f1;margin-top:10px;}
+#box2 >div:nth-child(4){width:400px; height:18px;background:#f1f1f1;margin-top:10px;}
+#box2 >div:nth-child(5){width:400px; height:18px;background:#f1f1f1;margin-top:10px;}
+
+#box2 > div:nth-child(1) p:nth-of-type(1){width:319px; height:18px; background:#4cb059;color:#4cb059}
+#box2 > div:nth-child(2) p:nth-of-type(1){width:169px; height:18px; background:#2196fc;color:#2196fc}
+#box2 > div:nth-child(3) p:nth-of-type(1){width:53px; height:18px; background:#00bcd5;color:#00bcd5}
+#box2 > div:nth-child(4) p:nth-of-type(1){width:21px; height:18px; background:#ff9801;color:#ff9801}
+#box2 > div:nth-child(5) p:nth-of-type(1){width:80px; height:18px; background:#f54337; color:#f54337;}
+
+
+
+
+
+/*
+#star{border:1px solid black; width:800px;height:400px;box-sizing:border-box;clear:both}
+#box1{margin:10px;border:1px solid black;float:left;width:110px;height:140px;}
+
+
+
+#box2{border:1px solid black; float:left; width:550px;margin-top:10px;height:140px;}
+#box3{border:1px solid black; float:right;width:100px;margin-top:15px;margin-right:10px;padding-bottom:20px;text-align:right;font:normal 15px/1.5em "맑은 고딕","Malgun Gothic",sans-serif; color:#333333;}
+*/
+
+
+
+

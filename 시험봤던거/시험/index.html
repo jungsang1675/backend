@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vue</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+
+<body>
+    <div class="num1">
+        {{ value }} <br>
+        <button v-on:click="plus">add</button>
+        <button v-on:click="minus">Del</button>
+    </div> <!-- 1번 문제 -->
+    <hr>
+    <div id="num2">
+        {{ win }} <br>
+        <button v-on:mousedown="ter">내용추가</button>
+    </div><!-- 2번 문제 -->
+    <hr>
+    <div id="num3">
+        <p v-bind:title="title">겨울이예요</p>
+    </div><!-- 3번문제 -->
+    <hr>
+    <div id="num4">
+        <a v-bind:href="link" v-bind:target="target" v-bind:title="title">네이트 연결</a>
+    </div> <!-- 4번문제 -->
+    <hr>
+    <div id="num5">
+        {{msg}} <br>
+        {{r_msg}}
+    </div><!-- 5번 문제 -->
+    <hr>
+    <div class="num6">
+        {{fisrt}} <br>
+        {{ r_first }}
+    </div><!-- 6번문제 -->
+    <hr>
+    <div class="num7">
+        {{len}} <br>
+        {{r_len}}
+    </div><!-- 7번문제 -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+
+/* reset*/
+body,div,h3,p,br{margin:0; padding:0;}
+body{font:normal 12px/1.5em "맑은 고딕","Malgun Gothic",sans-serif;}
+
+/*product_wrap*/
+/*160 x 9 =960 마진 위아래 20준다*/
+#product_wrap{width:960px; height:256px;; margin:20px auto;}
+/*위아래선 포함 256*/
+#product{width:960; height:250px; background-color:#f5f6f8;border-top:3px solid #cccccc; border-bottom:3px solid #cccccc;}
+/*div 위아래 여백 20줬으니깐 210 박스사이즈 안에채워라*/
+#product > div{float:left; width:160px; height:210px; border-right:1px solid #cccccc;box-sizing:border-box; text-align:center; margin-top:20px;padding-top:80px;}/*공통 패딩넣으면원래 사이즈가늘어나는데 박스사이즈안에 포함되기때문에*/
+#product > div:nth-child(1){background:url(../images/product1.jpg) no-repeat center 10px;}
+#product > div:nth-child(2){background:url(../images/product2.jpg) no-repeat center 10px;}
+#product > div:nth-child(3){background:url(../images/product3.jpg) no-repeat center 10px;}
+#product > div:nth-child(4){background:url(../images/product4.jpg) no-repeat center 10px;}
+#product > div:nth-child(5){background:url(../images/product5.jpg) no-repeat center 10px;}
+#product > div:nth-child(6){border-right:none; background:url(../images/product1.jpg) no-repeat center 10px;}
+#product > div > h3{font-size:13px; color:#868ea1;border:1px solid yellow; height:20px;background:url(../images/line1.jpg) no-repeat center bottom; padding-bottom:10px;margin-bottom:24px;}
+#product > div >p{letter-spacing:-1px; color:#666666;}

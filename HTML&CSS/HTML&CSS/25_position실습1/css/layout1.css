@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/*reset*/
+p,div,img{margin:0; padding:0;}
+
+/*wrap*/
+#wrap{width:1400px;height:900px;background:url(../images/bg.jpg)no-repeat;margin:0 auto;}
+h3{width:300px;height:50px;float:left;margin-left:620px;font-size:35px;}
+#wrap>p:nth-of-type(1){clear:both;width:500px; float:left;margin-left:530px;}
+#wrap>p>a{border-bottom:4px solid gray;width:60px;height:25px;clear:both;float:left;font-size:20px;margin-left:670px;margin-top:20px; text-decoration : none;color:black;margin-bottom:10px;}
+
+/*포토*/
+.photo{width:1400px;height:700px;float:left; position:relative;margin-left:180px;}
+.photo>img{position: absolute;}
+.photo>img:nth-of-type(1){left:20px;top:10px;}
+.photo>img:nth-of-type(2){left:440px; top:10px;}
+.photo>img:nth-of-type(3){left:650PX; top:10px;}
+.photo>img:nth-of-type(4){left:20px; top:150px;}
+.photo>img:nth-of-type(5){left:330px;top:150px;}
+.photo>img:nth-of-type(6){left:650px; top:200px;}
+.photo>img:nth-of-type(7){left:20px; top:290px;}
+.photo>img:nth-of-type(8){left:330px; top:390px;}

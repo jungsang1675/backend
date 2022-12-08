@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* 공통 */
+*{box-sizing: border-box;}
+
+.box{float: left; width: 25%; padding: 0 6px;}
+
+.gallery{border: 1px solid #cccccc;}
+.gallery:hover{border-color: #777777;}
+.gallery img{width: 100%; height: auto;}
+.caption_t{text-align: center; padding: 20px;}
+
+.txt{padding: 10px; text-align: justify;}
+.clearfix::after{content: ""; display: block; clear: both;}
+
+/* 700이하 */
+@media only screen and (max-width : 700px) {
+    .box{width:50%; margin: 6px 0;}
+}
+/* 500이하 */
+@media only screen and (max-width : 700px) {
+    .box{width:100%;}
+}

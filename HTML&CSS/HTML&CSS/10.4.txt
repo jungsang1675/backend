@@ -1,0 +1,21 @@
+폼태그
+
+아이디 명시적 나와있는데 css통해서 아이디 등 여러가지를 숨길수있음
+
+details 제목을 클릭할떄 마다 내용 show/hide
+<summary>제목</summary>
+내용
+</details>
+
+*진행률(진행상태)
+
+<progress value="초기값" max=""></progress> max="" 생략가능
+
+
+실습9 iframe
+-index.html / main.css
+map1.html1~map5.html /css 똑같이 map.css
+-id/class명 
+-적절한 주석 
+-마크업/css유효성 체크 
+-코드정리(들여쓰기...)

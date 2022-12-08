@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+
+/* 장르별키워드 전체*/
+#kword_wrap{width:1910px; margin: 0 auto;height: 820px;position: relative;}
+#kword_wrap > div{float: left;}
+
+/*장르별 키워드*/
+#list_kword{clear: both;float:left;width:1300px;}
+#list_kword h3{font-size:35px;color:#00cd3c;margin-bottom: 20px;margin-left:50% ;height: 30px;margin-top: 60px;}
+#list_kword a{font-size:13px;text-align: center;color:gray;float: right;width:80px;height: 30px;line-height: 30px;margin-top: 20px;}
+#list_kword h3 a:hover{color: red;}
+#list_kword a:first-child{margin-right: 50px; background:url(../logo/line.jpg) repeat-y left;}
+
+#list_w {width:1300px; height: 600px; }
+#list_w p{font-size:30px; text-align:center;padding-top: 15px;margin-bottom: 20px;font-weight: bold;}
+#list_w div{width: 400px; height: 500px;border: 1px solid gray;float: left;margin-left: 10px;margin-top: 10px;}
+#list_w dl{width: 350px; height: 110px; border-bottom: 1px solid gray;margin-bottom: 40px; margin-left: 13px;}
+#list_w dt{float: left; margin-left:10px;margin-right: 10px;}
+#list_w dd{font-size: 18px;font-weight:bold;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.list_if{float: left;}
+#list_w dd:last-child{margin-top: 10px;line-height:25px;font-weight: normal;color: gray; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;font-size: 17px;}
+#list_w dd:last-child:hover{text-decoration: underline;}
+
+
+/*chart_right 뮤직비디오*/
+#chart_right{width:510px; height: 520px;float: left;margin-left: 20px;margin-top:60px;}
+#chart_right img{border-radius: 20px; background: url(../logo/search.png) no-repeat center top;transform:scale(1.1);transition:all 0.5s;}
+#chart_right img:hover{transform:scale(1);}
+
+#chart_mv{font-size: 35px; color:#00cd3c;margin-bottom: 15px;}
+#chart_right p{color:black; font-size:27px;line-height:25px;font-weight: bold;}
+#chart_right div{width: 250px; height:480px;}
+#chart_right div:nth-of-type(1){float: left;box-sizing: border-box;padding-left: 10px;padding-top: 15px;}
+#chart_right div:nth-of-type(1) p{font-size:27px;padding-bottom: 10px;box-sizing: border-box;padding-top: 10px}
+#chart_right div:nth-of-type(1) span{font-size:22px;line-height:45px;}
+#chart_right div:nth-of-type(2){float:right;box-sizing: border-box;padding-left: 10px;padding-top: 15px;}
+#chart_right div:nth-of-type(2) p{font-size:27px;padding-bottom: 10px;box-sizing: border-box;padding-top: 10px}
+#chart_right div:nth-of-type(2) span{font-size:22px;line-height:45px;}
+
+/*----페이지5-----*/
+
+#main_bottom{clear:both;width: 1910px;height: 200px;margin: 0 auto;font-style: normal; font-family: nanum,sans-serif;background-color: white;}
+#m_bottom{width: 1910px;height: 60px;color: gray;}
+#main_bottom a{color: gray;}
+#main_b1{width: 1910px; height: 55px;float: left;}
+#main_b1 ul:nth-child(1){width: 1000px; height: 52px;float: left;}
+#main_b1 ul:nth-child(1) >li{float: left;font-size: 26px;margin-left: 20px;margin-top: 10px;;line-height: 40px;font-weight: bold;color: black;}
+#main_b1 ul:nth-child(1) >a:hover{color:#00cd3c}
+#main_b1 ul:nth-child(2){width: 700px; height: 52px;float: right;}
+#main_b1 ul:nth-child(2) >li{float: right;padding-left: 5px;margin-top: 10px;}
+#main_b1 ul:nth-child(2) >li:first-child{margin-right:20px}
+
+#main_b2{clear: both ;width:1910px;}
+#main_b2 p{clear: both;font-size: 20px;padding-top: 10px; line-height: 30px;padding-left:25px;}
+
+
+/*----페이지5-----*/
+

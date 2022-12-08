@@ -1,0 +1,20 @@
+
+@charset "utf-8";
+
+div{background-color:#595959;
+    font-size:15px,sans-serif;
+    color:#ffffff;
+    text-align:center;
+    width:620px;} 
+#ex1{border-collapse:collapse;}
+th{background-color:#ff4305;
+height:50px;
+width:200px;}
+td{height:40px;}
+#event{border-bottom:3px solid white;color:white;font-size:30px; height:35px;width:200px;margin-bottom:10px;} 
+.tit1{width:70px;}
+.tit2{width:130px;}
+#tit6{vertical-align:middle;}
+.tit4{vertical-align:top; padding-top:10px;}
+#tit5{vertical-align:top;}
+#event{border-bottom:3px solid white;color:white;font-size:30px; width:220px;margin-bottom:10px;} 

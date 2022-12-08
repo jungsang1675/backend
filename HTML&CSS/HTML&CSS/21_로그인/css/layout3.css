@@ -1,0 +1,65 @@
+@chsrset "utf-8";
+
+
+/*reset*/
+
+ul,li{list-style:none;}
+body,div,from,h3,p,h4,input,label,ul,li,strong,h5,br{margin:0;padding:0;}
+body,h3,h4,input{font:normal 12px/1.5em "맑은 고딕","Malgun Gothic",sans-serif; color:#333333;}
+
+/*login_wrap*/
+
+#login_wrap{width:1000px; height:700px; border:1px solid red; margin: 20px auto 0 auto; background:url(../images/bg.png) repeat;}
+/*전체*/
+#login_title{text-align:center; border:1px solid blue; height:80px; margin-bottom:40px;}/*로그인*/
+#login_title h3{font-size:39px; height:40px; margin-bottom:10px;} /*로그인*/
+#login_title p{height:22px;} /*한솔교육에...*/
+
+#login_container{width:1000px;overflow:hidden; background-color:#ffffff; border-top:1px solid #999999; margin-bottom:20px;}
+
+#login_all{width:900px; height:225px; border:1px solid blue; margin:40px auto;}/*회원로그인,sns 간편로그인전체*/
+
+.login_l{float:left; border-right: 1px solid rgba(153,153,153,0.5);width:450px;} /*회원로그인전체*/
+.login_l h4{font-size:20px; height:25px; margin-bottom:20px;} /*회원로그인*/
+.u_id input, .u_pwd input{border:1px solid rgba(153,153,153,0.5); width:400px; height:45px; border-radius:2px; text-indent:2em; outline:none; margin-bottom:3px;}
+/*아이디,비밀번호*/
+.u_pwd input{margin-bottom:10px;}
+/*비밀번호*/
+.login{height:45px;margin-bottom:10px;}/*로그인*/
+.login input{width:400px; height:45px; border:none; outline:none; background-color:#d84800;color:#ffffff; font-size:15px; border-radius:25px; cursor:pointer;}
+
+/*로그인*/
+.login input:hover{background-color:#d84800;}
+
+.login_chk{height:14px;}
+.login_chk input{vertical-align:-2; margin-right:5px;}
+
+.login_r{float:right; width:405px;} /*sns 간편로그인 전체*/
+/*플로트로 오른쪽붙혀있으니깐 왼쪽마진안줘도됨 */
+.login_r h4{font-size:20px; height:25px; margin-bottom:20px;}
+.btn_wrap li{width:400px; height:50px; margin-bottom:5px; border-radius:5px;}
+.btn_wrap li:nth-child(1){background:#fad400 url(../images/sns1.jpg) no-repeat left center;}
+.btn_wrap li:nth-child(2){background:#fad400 url(../images/sns2.jpg) no-repeat left center;}
+.btn_wrap li:nth-child(3){background:#fad400 url(../images/sns3.jpg) no-repeat left center;}
+.btn_wrap li input{width:400px; height:50px;border:none; outline:none; background:none; font-size:15px; color:#ffffff; cursor:pointer;}
+
+
+#login_infor{clear:both;border-top:1px solid rgba(153,153,153,0.5); width:900px; height:150px; margin-right:auto; }/*회원가입 아이디 찾기 비밀번호찾기 전체*/
+.login_infor1{float:left; margin-top:30px; }/*회원가입*/
+.login_infor2{float:right; width:405px; margin-top:30px;}/*아이디 비밀번호찾기*/
+.join_infor p{line-height:2.5em;}
+
+.search1,.search2{float:left; margin-left:5px;}
+
+.search1 input, .search2 input{width:100px; height:30px; font-size:14px; border:1px solid rgba(153,153,153,0,5); border-radius:3px; background-color:#ffffff; cursor:pointer; outline:none;}
+
+.join input{width:100px; height:30px; font-size:14px; border:1px solid rgba(153,153,153,0,5); border-radius:3px; background-color:#ffffff; cursor:pointer; outline:none;}
+/*회원가입버튼*/
+.join input:hover{background-color:#999999; color:#ffffff;}
+
+
+
+
+#information{clear:both; border:1px solid rgba(153,153,153,0,5); width:1000px; height:80px; padding-top:20px; text-indent:2em;}
+#information h5{font-size:14px; margin-bottom:15px;}
+/*이용안내*/

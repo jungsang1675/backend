@@ -1,0 +1,18 @@
+@charset "utf-8";
+h2,h3{color:#666666;}
+div{color:#666666;
+background-color:#ff99cb;
+border:5px solid black;
+margin-left:60px;
+padding:15px;
+padding-bottom:0px;font-size:13px;}
+
+ul{color:#666666;
+background-color:#ffffcd;
+border:2px solid black;
+margin-left:40px;
+padding-left:10px;
+width:210px;
+list-style:none;}
+
+ol{text-align:justfy; width:430px;}

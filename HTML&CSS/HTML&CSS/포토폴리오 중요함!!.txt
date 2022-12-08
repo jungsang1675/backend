@@ -1,0 +1,64 @@
+ |하이폰 네이트가 뒤에있으니깐 안된다
+
+
+자식선택
+<div id="ex5">
+    <h5>웹표준</h5>
+    <div id="ex5_2">>
+    <h5>웹접근성</h5>
+    </div><!--ex_2-->
+</div><!--ex_1-->
+			div
+		h5		div
+				h5
+
+이미지 커서
+.url1 {cursor:
+
+13분 
+
+내일 배경 이미지넣는법
+배경에 이미지 넣기
+backgroun-image: url(경로/파일명);  jpg,gif,png,svg
+:x.y반복 적용 border-radius: top-left-x top-right-x bottom-right-x bottom-left-x/ top-left-y top-right-y bottom-right bottom-left-y x만 넣으면안되고 y만 혼자넣어도안됨 ㅇㅋ?
+
+
+pc포트폴리오 리뉴얼 싸이트 선정
+-최소페이지(메인,로그인,회원가입)디자인바꿔주고 스크립트 처리해서
+참고 url
+- https://www.dbcut.com
+- http://www.gdweb.co.kr
+https://iconfinder.com 아이콘 가져오기
+http://flaticon.com 아이콘가져오기
+이미 만들어져있는 사이트 벤치마킹해서 리뉴얼하라는뜻 디자인만배껴라 디자인 신경써야됨 
+기업홈페이지 같은걸 추천함 개성있는거 말고 그건실력이안됨 ㅋㅋ
+
+이미지 가져오는법 2가지 이미지많아야됨
+img(이미지)태그이용해서 마크업하는경우 그냥 사진떙겨오면됨
+네이버 로고 그냥 드래그해서 가져오면됨
+css: f12누르고 SOURCES누르면 이미지가있음 save 저장하면됨 드래그해도됨 
+f12누르고 왼쪽상단에 마우스커서표시누르고 사진가져올부분 누른다음에 코딩에서 css파일에있는 사진눌러서 가져오기
+
+자료많고 이미지큰곳으로 고르는게좋다
+좋아하는거말고 무난하게 가는게좋다 
+디자인 틀만만드는것
+포토샵
+너비 1920  높이 1000 해상도 72(resolution) color mode(rgb color white)픽셀잘볼것 
+view new guide layout (number 20 gutter 20px;)
+
+F7 레이어 레이어 추가 
+
+view lock 풀면 가이드선 조정됨
+
+시안작업
+
+
+
+
+
+
+
+
+
+
+

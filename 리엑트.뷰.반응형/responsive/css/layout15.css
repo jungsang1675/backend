@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/* 공통 */
+*{box-sizing: border-box;}
+body{font:normal 12px/1.5em "Arial",sans-serif; -webkit-user-select: none; -moz-user-select: none;-ms-user-select:none; user-select: none;}
+
+.row::before, .row::after{content: ""; display: table;}
+.row::after{clear: both;}
+
+.main_img{background: url(../images/visual_d.jpg) no-repeat; padding-top: 230px; padding-bottom: 100px;background-size: cover;text-align: center;color: #ffffff;}
+.main_img h2{font-size: 4vw; margin-bottom: 85px;}
+.main_img h3{font-size: 2vw; margin-bottom: 280px;}
+/* 반응형들어갈떄 공통먼저해야됨 왜냐면 사이즈별로 넣고 공통넣으면 꼬일수도있음 */
+/* 1200이상 */
+@media screen and ( min-width : 1200px) {
+body{max-width: 1920px; margin-left: auto; margin-right: auto;}
+
+#top{border: 1px solid blue; padding: 20px 35px 20px 35px;}
+.logo{width: 396px; height: 83; float: left;}
+
+.all_menu{display: none;}/* 전체메뉴 아이콘*/
+
+#navi{float:right; }
+#navi li{float: left;}
+#navi li a{color: #2f322a; border-left: 1px solid #cccccc; margin-left: 15px; padding-left: 15px; margin-top: 34px; display: block; font-size: 16px;}
+}
+#navi li:first-child a{margin-left: 0; padding-left: 0; border-left: none;}
+
+.main_img{background: url(../images/visual_d.jpg) no-repeat; padding-top: 230px; padding-bottom: 90px;background-size: cover;text-align: center;color: #ffffff;}
+.main_img h2{font-size: 4vw; margin-bottom: 50px;}
+.main_img h3{font-size: 2vw; margin-bottom: 280px;}
+/* 768-1199 */
+@media screen and ( min-width : 768px) and (max-width : 1199px) {
+    body{max-width: 1199px; border: 1px solid red; margin-left: auto; margin-right: auto;}
+
+    #top{border: 1px solid blue; padding: 20px 30px 20px 30px;}
+    .logo{width: 345px; height: 72; float: left;}/* 로고 */
+    .logo img{width: 345px; height: 72;}
+    
+    .all_menu{width: 40px; height: 35px; float: right; margin-top: 18px;cursor: pointer;}/* 전체메뉴 아이콘*/
+    
+    #navi{display: none; }
+    .main_img{background: url(../images/visual_d.jpg) no-repeat; padding-top: 230px; padding-bottom: 50px;background-size: cover;text-align: center;color: #ffffff;}
+.main_img h2{font-size: 4vw; margin-bottom: 50px;}
+.main_img h3{font-size: 2vw; margin-bottom: 280px;}
+
+}
+/* 767 최소값 320인이유 모바일 최소값이 320임 ㅋㅋ */
+/* 767이하 */
+@media screen and (max-width : 767px) {
+    body{max-width: 767px; min-width: 320px;margin-left: auto; margin-right: auto;}
+
+    #top{border: 1px solid blue; padding: 20px 20px 20px 20px;}
+    .logo{width: 260px; height: 53; float: left;}/* 로고 */
+    .logo img{width: 260px; height: 53;}
+    
+    .all_menu{width: 30px; height: 25px; float: right; margin-top: 14px;cursor: pointer;}/* 전체메뉴 아이콘*/
+    .all_menu img{width: 30px; height:25px;}
+    #navi{display: none; }
+
+    .main_img{background: url(../images/visual_d.jpg) no-repeat; padding-top: 230px; padding-bottom: 50px;background-size: cover;text-align: center;color: #ffffff;}
+.main_img h2{font-size: 4vw; margin-bottom: 50px;}
+.main_img h3{font-size: 2vw; margin-bottom: 280px;}
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>테이블실습</title>
+    <link rel="stylesheet" href="css/layout3.css">
+    <!-- 재무정보 단위억원캡션 묶어주고 단위 억원 스펜태그넣어서 마진으로 띄어서 넣어라-->
+<!--fy2016 병합해서 해라 빈셀금지-->
+<!--스코프 헤더스 접근성 넣어라-->
+<!-- 한글 영어 th다-->
+<!--맨마지막줄 li 테이블병합해서해라 li앞에 블릿기호 배운걸로바꿔라-->
+<!--초기화 마크업태그전부다-->
+<!--태그 {font:normal 13px/ 1.5em "고딕",Gothic,sans-serif; color:#666666;-->
+<!--마크업/css 유효성 코드정리 후 제출-->
+</head>
+<body>
+    <table id="wrap">
+<caption>재무정보<span>(단위:억원)</span></caption>
+        <tr class="ex1">
+            <th colspan="2" id="tit_money" >FY2016</th>
+            <th id="tit_money1" >FY2015</th>            
+        </tr>        
+        <tr class="ex2">
+            <th headers="tit_money">자산총계</th>
+            <td  headers="tit_money">1,053,313</td>
+            <td headers="tit_money1">988,554</td>
+        </tr>
+        <tr class="ex2">
+            <th  headers="tit_money">부채총계</th>
+            <td headers="tit_money">971,788</td>
+            <td headers="tit_money1">902,831</td>
+        </tr>
+        <tr>
+            <th headers="tit_money">자본금</th>
+            <td headers="tit_money">43,421</td>
+            <td headers="tit_money1">43,427</td>
+        </tr>
+         <tr>
+            <th headers="tit_money">기타불입자본</th>
+            <td headers="tit_money">-4,388</td>
+            <td headers="tit_money1">-4,388</td>
+        </tr>
+         <tr>
+            <th headers="tit_money">기타자본구성요소</th>
+            <td headers="tit_money">15,690</td>
+            <td headers="tit_money1">21,742</td>
+        </tr>
+          <tr>
+            <th headers="tit_money">이익잉여금</th>
+            <td headers="tit_money">26,297</td>
+            <td headers="tit_money1">21,742</td>
+        </tr>
+          <tr>
+            <th headers="tit_money">자본총계</th>
+            <td headers="tit_money">81,525</td>
+            <td headers="tit_money1">85,724</td>
+        </tr>
+          <tr>
+            <th headers="tit_money">영업수익</th>
+            <td headers="tit_money">159,965</td>
+            <td headers="tit_money1">156,432</td>
+        </tr>
+          <tr>
+            <th headers="tit_money">영업이익</th>
+            <td headers="tit_money">3,048</td>
+            <td headers="tit_money1">4,806</td>
+        </tr>
+         <tr>
+            <th headers="tit_money">법인세차감전순이익</th>
+            <td headers="tit_money">4,090</td>
+            <td headers="tit_money1">5,742</td>
+        </tr>
+         <tr>
+            <th headers="tit_money">당기순이익</th>
+            <td headers="tit_money">3,151</td>
+            <td headers="tit_money1">5,003</td>
+        </tr>
+         <tr class="ex2"id="ex5">
+            <th headers="tit_money">(주)한화 보유지분</th>
+            <th headers="tit_money" >18.15%</th>
+            <th headers="tit_money1" >21,67%</th>
+        </tr>
+         <tr class="ex2" id="ex6">
+            <th headers="tit_money">(주)한화 지배지분</th>
+            <th headers="tit_money" >47.00%</th>
+            <th headers="tit_money1" >47.00%</th>
+        </tr>
+        <tr>
+            <th colspan="3">
+                <ul>
+                    <li>별도기준 재무재표</li>
+                    <li>보유지분은 보통주기중</li>
+                    <li>기준지분은 16,12월말 기준(주)한화와 자회사 보유지분(총발행주식기준 보통주)을 고려 (모회사자회사손자회사 지분 계산)한 (주)한화기준에서의 지분율</li>
+                </ul>
+            </th>
+        </tr>
+    </table>
+</body>
+</html>

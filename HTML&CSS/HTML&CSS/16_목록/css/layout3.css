@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/*reset*/
+ol,ul,li{list-style:none;}
+div,ol,li,ul{margin:0; padding:0;}
+/*body{font-weight:normal; font-size:16px; line-height:1.5em;font-family:berdana,sans-serif;}*/
+/*    굵기 보통 16px크기 줄간격은 1.5em,verdana;*/
+/*폰트축약법 14페이지 밑에참조*/
+/*폰트만 쓸경우*/
+body{font:normal 16px/1.5em verdana,sans-serif;}
+
+/*-------------------기본세팅---절취선------------*/
+
+#list1 li{background:url(../images/icon4.gif) no-repeat left 5px; padding-left:20px; color:#cc0033;font-weight:bold;}
+#list1 li ul{border-left:1px dotted #333333; padding-left:5px; padding-top:5px; padding-bottom:5px;}
+#list1 li ul li{color:#000000; /*background:url(../images/icon3.gif) no-repeat left 5px; 위에미지가 겹쳐져있고 로리스펙트가들어가있어서 반복으로안나온다*/background-image:url(../images/icon3.gif);}
+#list1 li ul li ul{border-left:none;}
+#list1 li ul li ul li{font-weight:normal; background-image:url(../images/icon2.gif)}
+
+
+#list2 li{color:#3399ff;font-size:20px; line-height:1.5em; font-weight:bold;}
+#list2 li ul{border-left:1px solid black; padding-left:5px; padding-top:5px; padding-left:10px;}
+#list2 li ul li{font-size:15px; color:black;}
+#list2 li ul li ul {border-left:none;padding-bottom:5px; padding-left:25px;}
+#list2 li ul li ul li{font-size:12px; font-weight:normal;border-left:none; background: url(../images/icon1.png) no-repeat left center; padding-left:20px;}

@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+#business{
+border-bottom:double black 3px;
+width:100px;margin-left:400px;margin-bottom:10px; font-size:20px;}
+
+#ex2 {text-align:center;border:1px solid black; border-collapse:collapse;}
+
+#ex2 th,#ex2 td{border:1px solid black;}
+#ex2 td{width:186px}
+.tit1{width:29px;height:115px;}
+.tit2{width:29px; height:109px;}
+.tit3{width:29px; height:450px;}
+.tit4{height:29px;}
+.tit5{height:50px;}
+.tit6{height:100px;}
+.tit7{width:102px;}
