@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Wed Dec 28 14:13:59 KST 2022
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\505\\.m2\\repository\\org\\springframework\\spring-web\\5.0.2.RELEASE\\spring-web-5.0.2.RELEASE.jar=C\:\\apache-tomcat-9s\\wtpwebapps\\BoardWeb\\WEB-INF\\lib\\spring-web-5.0.2.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\505\\.m2\\repository\\org\\springframework\\spring-web\\5.1.2.RELEASE\\spring-web-5.1.2.RELEASE.jar=C\:\\apache-tomcat-9s\\wtpwebapps\\BoardWeb\\WEB-INF\\lib\\spring-web-5.1.2.RELEASE.jar
+org.eclipse.jst.jee.server\:BoardWeb=C\:\\apache-tomcat-9s\\wtpwebapps\\BoardWeb

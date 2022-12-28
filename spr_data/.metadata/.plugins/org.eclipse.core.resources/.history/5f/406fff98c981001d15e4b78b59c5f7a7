@@ -1,0 +1,11 @@
+package com.springbook.biz.user;
+
+public class UserServiceClient {
+
+	public static void main(String[] args) {
+		// 1. Spring 컨테이너를 구동한다.
+		
+
+	}
+
+}

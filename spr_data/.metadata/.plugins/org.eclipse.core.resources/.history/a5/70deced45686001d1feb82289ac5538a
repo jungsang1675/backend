@@ -1,0 +1,15 @@
+package com.springbook.view.controller;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HandlerMapping {
+	private Map<String, Controller> mappings;
+	
+	public HandleMaoping() {
+			mappings = new HashMap<Stirng,Controller> mappings;
+	}
+	{
+		
+	}
+}
