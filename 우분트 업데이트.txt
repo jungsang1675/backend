@@ -1,0 +1,27 @@
+clear
+
+sudo apt install ssh
+12345
+y
+
+파이어폭스 
+네이버쳐라
+벌쳐박스가 인터넷에 연결되는지 확인하는거다
+
+
+
+su root
+비밀번호
+vi etc/sudoers
+수정
+exit
+
+아이디 경로로~
+
+sudo apt update
+sudo apt upgrade
+
+clear
+
+sudo apt install ssh
+파이어폭스 인터넷되는지~
